@@ -1,12 +1,11 @@
-# EfficientDet-Realistic-USA-RoadSigns
-Training and detection RoadSigns in US by EfficientDet
-
 <h2>
-EfficientDet Realistic USA RoadSigns (Updated: 2022/04/04)
+EfficientDet-Slightly-Realistic-USARoadSigns (Updated: 2022/04/04)
 </h2>
 
-This is a realistic python example to train and detect RoadSigns in US based on 
+This is a slightly realistic project to train and detect RoadSigns in US based on 
 <a href="https://github.com/google/automl/tree/master/efficientdet">Google Brain AutoML efficientdet</a>.
+<br>
+Please also refer to our experimental project <a href="https://github.com/atlan-antillia/EfficientDet-USA-RoadSigns">EfficientDet-USA-RoadSigns</a>.
 <br>
 
 <h3>
