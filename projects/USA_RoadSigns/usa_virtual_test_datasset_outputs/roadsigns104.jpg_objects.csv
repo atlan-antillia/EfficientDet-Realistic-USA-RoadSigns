@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns104.jpg,Bicycles_and_pedestrians,0.95,992,511,1158,675
+roadsigns104.jpg,School_advance,0.93,516,276,683,445
+roadsigns104.jpg,Reserved_parking_wheelchair,0.84,40,43,153,206
+roadsigns104.jpg,School_advance,0.8,753,391,920,560
+roadsigns104.jpg,Bike_lane,0.8,276,159,441,288

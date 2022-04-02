@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns148.jpg,Side_road_at_a_perpendicular_angle,0.94,40,47,203,209
+roadsigns148.jpg,Bike_lane_slippery_when_wet,0.93,749,389,916,556
+roadsigns148.jpg,Road_closed_ahead,0.9,279,158,443,326
+roadsigns148.jpg,Cross_roads,0.86,515,276,675,439
+roadsigns148.jpg,Keep_left,0.59,990,510,1159,600

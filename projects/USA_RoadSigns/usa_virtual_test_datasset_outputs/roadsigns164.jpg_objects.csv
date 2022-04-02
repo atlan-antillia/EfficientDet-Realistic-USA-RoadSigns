@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns164.jpg,Hazardous_material_prohibited,0.94,749,390,915,557
+roadsigns164.jpg,Left_turn_or_straight,0.71,513,272,654,440
+roadsigns164.jpg,Reserved_parking_wheelchair,0.69,36,45,172,210
+roadsigns164.jpg,Reverse_turn,0.64,275,156,441,325
+roadsigns164.jpg,Road_slippery_when_wet,0.55,991,512,1159,680

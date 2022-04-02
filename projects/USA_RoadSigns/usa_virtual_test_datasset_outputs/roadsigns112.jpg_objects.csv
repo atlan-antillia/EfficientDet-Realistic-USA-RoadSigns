@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns112.jpg,Deer_crossing,0.95,991,510,1157,678
+roadsigns112.jpg,Yield,0.9,513,275,675,423
+roadsigns112.jpg,Reverse_turn,0.72,275,156,439,324
+roadsigns112.jpg,Right_turn_or_straight,0.45,40,45,220,227
+roadsigns112.jpg,Keep_left,0.41,751,388,915,478

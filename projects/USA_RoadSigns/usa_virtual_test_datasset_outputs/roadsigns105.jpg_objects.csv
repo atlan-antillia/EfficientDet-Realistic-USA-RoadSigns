@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns105.jpg,Bike_lane,0.98,991,508,1157,639
+roadsigns105.jpg,Hill_bicycle,0.92,514,274,676,440
+roadsigns105.jpg,Curve,0.91,750,393,914,553
+roadsigns105.jpg,Speed_limit_50,0.63,38,43,201,207
+roadsigns105.jpg,Rough_road,0.53,276,156,441,324

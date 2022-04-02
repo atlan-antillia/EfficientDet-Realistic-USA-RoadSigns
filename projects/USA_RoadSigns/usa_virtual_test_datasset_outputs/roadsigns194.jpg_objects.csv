@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns194.jpg,Chevron_alignment,0.96,990,512,1119,676
+roadsigns194.jpg,Circular_intersection_warning,0.92,513,273,677,440
+roadsigns194.jpg,Speed_limit_80km,0.84,281,159,438,357
+roadsigns194.jpg,Left_turn_only,0.82,751,390,890,554
+roadsigns194.jpg,Truck_speed_Limit_40,0.76,36,45,203,212

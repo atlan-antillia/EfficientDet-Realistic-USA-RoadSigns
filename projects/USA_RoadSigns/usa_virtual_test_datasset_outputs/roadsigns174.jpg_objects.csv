@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns174.jpg,Steep_grade_percentage,0.95,515,277,682,446
+roadsigns174.jpg,Side_road_at_an_acute_angle,0.93,754,395,917,559
+roadsigns174.jpg,Do_not_enter,0.73,990,510,1158,679
+roadsigns174.jpg,Truck_crossing,0.66,276,158,443,326
+roadsigns174.jpg,Stop,0.44,42,45,196,167

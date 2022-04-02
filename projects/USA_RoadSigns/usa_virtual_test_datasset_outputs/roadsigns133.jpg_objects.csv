@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns133.jpg,Hazardous_material_prohibited,0.95,748,390,915,557
+roadsigns133.jpg,Minimum_speed_limit_40,0.92,992,508,1160,716
+roadsigns133.jpg,Y_roads,0.87,278,160,440,323
+roadsigns133.jpg,Speed_limit_50,0.55,37,44,200,207
+roadsigns133.jpg,Reserved_parking_wheelchair,0.53,513,273,629,437

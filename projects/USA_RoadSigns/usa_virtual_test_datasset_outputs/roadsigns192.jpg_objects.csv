@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns192.jpg,Truck_rollover_warning,0.96,38,44,203,210
+roadsigns192.jpg,Narrow_bridge,0.93,752,389,917,555
+roadsigns192.jpg,Bike_lane_slippery_when_wet,0.93,991,509,1156,676
+roadsigns192.jpg,Side_road_at_a_perpendicular_angle,0.9,279,158,441,326
+roadsigns192.jpg,Straight_ahead_only,0.73,512,272,653,438

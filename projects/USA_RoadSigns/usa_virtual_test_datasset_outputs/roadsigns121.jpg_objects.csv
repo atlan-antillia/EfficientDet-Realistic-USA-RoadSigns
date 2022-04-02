@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns121.jpg,Detour,0.96,512,272,678,409
+roadsigns121.jpg,Hill_bicycle,0.95,991,510,1157,676
+roadsigns121.jpg,Pedestrian_crossing,0.93,276,157,440,324
+roadsigns121.jpg,Sharp_turn,0.88,39,47,202,209
+roadsigns121.jpg,Deer_crossing,0.45,752,391,918,556

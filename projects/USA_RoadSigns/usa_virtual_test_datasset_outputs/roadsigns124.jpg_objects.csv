@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns124.jpg,Tractor_farm_vehicle_crossing,0.96,277,158,442,325
+roadsigns124.jpg,Bicycles,0.95,751,390,916,555
+roadsigns124.jpg,Keep_right,0.94,990,509,1128,676
+roadsigns124.jpg,Go_on_slow,0.66,514,273,629,437

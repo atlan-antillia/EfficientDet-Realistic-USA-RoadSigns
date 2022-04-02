@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns123.jpg,Two_way_traffic,0.95,36,45,202,209
+roadsigns123.jpg,Keep_left,0.93,990,508,1129,678
+roadsigns123.jpg,Straight_ahead_only,0.93,277,159,415,323
+roadsigns123.jpg,Railroad_crossing,0.69,754,393,919,559
+roadsigns123.jpg,End_detour,0.47,517,278,625,437

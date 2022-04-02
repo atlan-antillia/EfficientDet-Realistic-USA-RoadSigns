@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns196.jpg,Cross_roads,0.93,993,511,1155,677
+roadsigns196.jpg,Low_clearance,0.91,749,392,915,554
+roadsigns196.jpg,Hazardous_material_prohibited,0.81,274,153,440,322
+roadsigns196.jpg,Narrow_bridge,0.59,514,274,679,440
+roadsigns196.jpg,Truck_speed_Limit_40,0.51,41,46,205,251

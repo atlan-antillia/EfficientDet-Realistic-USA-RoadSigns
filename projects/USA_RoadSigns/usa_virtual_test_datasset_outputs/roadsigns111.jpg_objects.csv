@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns111.jpg,Railroad_crossing_ahead,0.91,274,159,445,331
+roadsigns111.jpg,Curve,0.89,990,512,1156,678
+roadsigns111.jpg,Yield,0.86,41,49,203,190
+roadsigns111.jpg,Rough_road,0.7,751,389,917,559
+roadsigns111.jpg,T_roads,0.61,516,278,679,442

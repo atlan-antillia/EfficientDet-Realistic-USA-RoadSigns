@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns147.jpg,Added_lane_from_entering_roadway,0.95,751,395,918,558
+roadsigns147.jpg,Hazardous_material_prohibited,0.94,989,508,1156,676
+roadsigns147.jpg,Y_roads,0.89,278,160,439,324
+roadsigns147.jpg,Minimum_speed_limit_40,0.86,515,273,679,478
+roadsigns147.jpg,Truck_speed_Limit_40,0.6,36,46,201,208

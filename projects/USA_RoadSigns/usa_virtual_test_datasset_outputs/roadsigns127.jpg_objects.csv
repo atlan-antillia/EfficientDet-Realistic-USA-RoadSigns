@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns127.jpg,Added_lane_from_entering_roadway,0.95,750,392,917,556
+roadsigns127.jpg,Left_turn_only,0.9,989,509,1131,672
+roadsigns127.jpg,Straight_ahead_only,0.9,274,158,416,323
+roadsigns127.jpg,Narrow_bridge,0.88,517,275,679,439

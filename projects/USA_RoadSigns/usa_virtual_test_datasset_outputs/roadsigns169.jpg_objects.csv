@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns169.jpg,Two_direction,0.98,43,45,206,133
+roadsigns169.jpg,Minimum_speed_limit_60km,0.84,512,276,655,475
+roadsigns169.jpg,End_detour,0.82,275,158,437,287
+roadsigns169.jpg,School_advance,0.81,751,392,920,559
+roadsigns169.jpg,Side_road_at_an_acute_angle,0.63,995,513,1155,675

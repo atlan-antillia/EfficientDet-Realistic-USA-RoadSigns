@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns182.jpg,Railroad_crossing,0.93,278,157,440,322
+roadsigns182.jpg,Steep_grade_percentage,0.82,751,396,916,559
+roadsigns182.jpg,Merge,0.74,992,512,1158,680
+roadsigns182.jpg,Pedestrian_crossing,0.63,34,46,202,208
+roadsigns182.jpg,School_bus_stop_ahead,0.62,514,275,678,441

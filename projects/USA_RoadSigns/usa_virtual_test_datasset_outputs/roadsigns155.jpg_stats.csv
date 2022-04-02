@@ -1,0 +1,6 @@
+id, class, count
+1,Truck_rollover_warning,1
+2,T_roads,1
+3,Circular_intersection_warning,1
+4,Railroad_crossing_ahead,1
+5,Left_turn_or_straight,1

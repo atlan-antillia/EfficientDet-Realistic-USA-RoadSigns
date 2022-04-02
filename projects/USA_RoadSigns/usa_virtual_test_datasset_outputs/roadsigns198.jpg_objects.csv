@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns198.jpg,Deer_crossing,0.95,992,509,1157,677
+roadsigns198.jpg,Pedestrian_crossing,0.94,277,158,442,324
+roadsigns198.jpg,Bump,0.93,512,270,677,439
+roadsigns198.jpg,Merging_traffic,0.64,751,389,917,555
+roadsigns198.jpg,Winding_road,0.43,41,46,203,209

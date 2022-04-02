@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns117.jpg,Go_on_slow,0.96,991,509,1128,676
+roadsigns117.jpg,Hazardous_material_route,0.96,751,388,916,557
+roadsigns117.jpg,Tractor_farm_vehicle_crossing,0.94,279,159,442,325
+roadsigns117.jpg,Side_road_at_an_acute_angle,0.93,42,46,202,206
+roadsigns117.jpg,Metric_low_clearance,0.59,513,273,679,439

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns162.jpg,Narrow_bridge,0.9,995,511,1157,677
+roadsigns162.jpg,Reverse_curve,0.84,516,273,680,440
+roadsigns162.jpg,Keep_left,0.84,274,157,411,323
+roadsigns162.jpg,Speed_limit_50,0.55,38,41,204,208
+roadsigns162.jpg,Go_on_slow,0.55,754,389,920,500

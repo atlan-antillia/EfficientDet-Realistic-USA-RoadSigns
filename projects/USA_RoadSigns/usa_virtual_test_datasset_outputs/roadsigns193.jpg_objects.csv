@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns193.jpg,End_detour,0.98,753,391,914,516
+roadsigns193.jpg,Bump,0.95,991,508,1157,678
+roadsigns193.jpg,Railroad_crossing,0.93,278,156,441,325
+roadsigns193.jpg,Y_roads,0.91,515,279,677,442
+roadsigns193.jpg,Hazardous_material_prohibited,0.59,37,42,202,206

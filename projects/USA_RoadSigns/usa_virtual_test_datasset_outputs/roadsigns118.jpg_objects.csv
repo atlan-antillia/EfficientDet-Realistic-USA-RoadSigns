@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns118.jpg,Bike_lane,0.98,750,393,916,521
+roadsigns118.jpg,Hairpin_curve,0.96,991,509,1157,677
+roadsigns118.jpg,End_detour,0.87,276,158,438,286
+roadsigns118.jpg,Keep_left,0.86,512,273,648,439
+roadsigns118.jpg,Truck_rollover_warning,0.76,36,45,200,208

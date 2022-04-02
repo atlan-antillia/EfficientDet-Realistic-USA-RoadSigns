@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns175.jpg,Straight_ahead_only,0.94,274,157,416,322
+roadsigns175.jpg,Right_turn_or_straight,0.92,35,44,178,210
+roadsigns175.jpg,Narrow_bridge,0.86,515,277,678,440
+roadsigns175.jpg,Go_on_slow,0.81,991,509,1133,677
+roadsigns175.jpg,Circular_intersection_warning,0.69,751,393,915,555

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns140.jpg,Hazardous_material_prohibited,0.94,990,508,1156,676
+roadsigns140.jpg,Road_slippery_when_wet,0.85,515,278,681,442
+roadsigns140.jpg,School_advance,0.82,752,394,917,559
+roadsigns140.jpg,Right_turn_only,0.81,40,46,177,208
+roadsigns140.jpg,Circular_intersection_warning,0.47,277,157,441,325

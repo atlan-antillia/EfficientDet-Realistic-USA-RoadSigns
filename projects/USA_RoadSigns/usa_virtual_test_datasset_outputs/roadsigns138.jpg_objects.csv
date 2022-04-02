@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns138.jpg,Hazardous_material_prohibited,0.93,987,509,1155,678
+roadsigns138.jpg,Hill_bicycle,0.93,513,273,678,440
+roadsigns138.jpg,Road_narrows,0.88,39,45,204,208
+roadsigns138.jpg,Keep_right,0.66,275,158,412,323
+roadsigns138.jpg,Go_on_slow,0.5,751,391,867,554

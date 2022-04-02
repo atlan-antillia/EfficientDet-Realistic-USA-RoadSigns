@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+roadsigns181.jpg,Hazardous_material_prohibited,0.85,516,275,679,440
+roadsigns181.jpg,Truck_crossing,0.81,41,46,202,208
+roadsigns181.jpg,Deer_crossing,0.73,752,390,916,556
+roadsigns181.jpg,Pedestrian_crossing,0.54,277,159,443,326
+roadsigns181.jpg,Keep_left,0.45,992,511,1157,601
