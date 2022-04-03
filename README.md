@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-USARoadSigns (Updated: 2022/04/04)
+EfficientDet-Slightly-Realistic-USA-RoadSigns (Updated: 2022/04/04)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in US based on 
