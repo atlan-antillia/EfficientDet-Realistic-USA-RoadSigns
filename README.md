@@ -1,5 +1,5 @@
 <h2>
-EfficientDet-Slightly-Realistic-USA-RoadSigns (Updated: 2022/04/04)
+EfficientDet-Slightly-Realistic-USA-RoadSigns (Updated: 2022/04/08)
 </h2>
 
 This is a slightly realistic project to train and detect RoadSigns in US based on 
@@ -36,12 +36,12 @@ You have to modify extra_compiler_args in setup.py in the following way:<br>
 </h3>
 Please clone EfficientDet-USA-RoadSigns in the working folder <b>c:\google</b>.<br>
 <pre>
->git clone  https://github.com/atlan-antillia/EfficientDet-Realistic-USA-RoadSigns.git<br>
+>git clone https://github.com/atlan-antillia/EfficientDet-Slightly-Realistic-USA-RoadSigns.git<br>
 </pre>
 You can see the following folder <b>projects</b> in  EfficientDet-USA-RoadSigns folder of the working folder.<br>
 
 <pre>
-EfficientDet-Realistic-USA-RoadSigns
+EfficientDet-Slightly-Realistic-USA-RoadSigns
 └─projects
     └─USA_RoadSigns
         ├─saved_model
@@ -49,8 +49,7 @@ EfficientDet-Realistic-USA-RoadSigns
         ├─usa_virtual_test_dataset
         ├─usa_virtual_test_dataset_outputs
         ├─train
-        ├─valid
-        └─__pycache__
+        └─valid
 </pre>
 <br>
 <b>Note:</b><br>
