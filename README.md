@@ -104,10 +104,10 @@ c:\py38-efficientdet\Lib\site-packages\tensorflow\python\training
  +- basic_session_run_hooks.py
  
 634    logging.info("Saving checkpoints for %d into %s.", step, self._save_path)
-635    ### <workaround date="2022/06/10" os="Windows">
+635    ### start workaround os="Windows"
 636    temp_dir = self._save_path + "-" + str(step) + "_temp"
 637    os.makedirs(temp_dir, exist_ok=True)
-638    #### </workaround>
+638    #### end workaround
 </pre>
 
 <pre>
@@ -115,10 +115,10 @@ c:\py38-efficientdet\Lib\site-packages\tensorflow\python\saved_model
  +- builder_impl.py
 
 595    variables_path = saved_model_utils.get_variables_path(self._export_dir)
-596    ### <workaround date="2022/06/10" os="Windows"> 
+596    ### start workaround os="Windows" 
 597    temp_dir = self._export_dir + "/variables/variables_temp"
 598    os.makedirs(temp_dir, exist_ok=True)    
-599    ### </workaround>
+599    ### end workaround
 </pre>
 
 <h3>3. Inspect tfrecord</h3>
@@ -137,7 +137,7 @@ python ../../TFRecordInspector.py ^
 This will generate annotated images with bboxes and labels from the tfrecord, and cout the number of annotated objects in it.<br>
 <br>
 <b>TFRecordInspecotr: annotated images in train.tfrecord</b><br>
-<img src="./asset/Ttfrecord_inspector_annotated_images.png">
+<img src="./asset/tfrecord_inspector_annotated_images.png">
 <br>
 <br>
 <b>TFRecordInspecotr: objects_count train.tfrecord</b><br>
