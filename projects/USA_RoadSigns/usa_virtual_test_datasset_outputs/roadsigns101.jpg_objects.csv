@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns101.jpg,Added_lane,0.96,992,511,1156,676
-roadsigns101.jpg,Added_lane,0.96,753,391,916,554
-roadsigns101.jpg,Chevron_alignment,0.82,275,156,403,323
-roadsigns101.jpg,Low_clearance,0.69,513,273,680,439

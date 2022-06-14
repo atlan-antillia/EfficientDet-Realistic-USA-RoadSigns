@@ -1,5 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns170.jpg,Hairpin_curve,0.96,750,390,916,555
-roadsigns170.jpg,Added_lane_from_entering_roadway,0.91,37,42,202,207
-roadsigns170.jpg,Cross_roads,0.89,993,511,1156,674
-roadsigns170.jpg,Bike_lane,0.78,509,269,654,437

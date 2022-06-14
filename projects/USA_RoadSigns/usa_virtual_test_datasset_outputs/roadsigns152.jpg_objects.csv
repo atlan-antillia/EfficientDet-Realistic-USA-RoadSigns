@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns152.jpg,Circular_intersection_warning,0.92,513,273,677,440
-roadsigns152.jpg,Truck_crossing,0.9,276,157,441,323
-roadsigns152.jpg,Go_on_slow,0.78,751,390,892,554
-roadsigns152.jpg,Narrow_bridge,0.64,990,510,1156,676
-roadsigns152.jpg,Keep_left,0.57,38,43,171,207

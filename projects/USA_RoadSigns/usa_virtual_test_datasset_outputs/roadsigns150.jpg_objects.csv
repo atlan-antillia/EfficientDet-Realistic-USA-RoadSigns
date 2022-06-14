@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns150.jpg,Right_turn_or_straight,0.94,32,45,178,214
-roadsigns150.jpg,Minimum_speed_limit_60km,0.89,510,272,652,478
-roadsigns150.jpg,End_detour,0.89,275,156,437,284
-roadsigns150.jpg,Merging_traffic,0.58,752,391,916,556
-roadsigns150.jpg,Deer_crossing,0.54,993,511,1157,678

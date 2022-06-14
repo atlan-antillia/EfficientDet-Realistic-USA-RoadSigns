@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns137.jpg,Circular_intersection_warning,0.94,751,390,917,556
-roadsigns137.jpg,Keep_right,0.92,513,273,647,437
-roadsigns137.jpg,Side_road_at_a_perpendicular_angle,0.91,40,46,200,207
-roadsigns137.jpg,Pass_road,0.83,278,161,387,321
-roadsigns137.jpg,Minimum_speed_limit_60km,0.82,994,510,1154,711

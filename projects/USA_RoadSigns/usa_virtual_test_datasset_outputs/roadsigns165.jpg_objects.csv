@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns165.jpg,Straight_ahead_only,0.92,275,158,415,323
-roadsigns165.jpg,Reverse_curve,0.92,514,274,681,443
-roadsigns165.jpg,Narrow_bridge,0.81,992,507,1157,679
-roadsigns165.jpg,Chevron_alignment,0.7,36,41,163,207
-roadsigns165.jpg,Tractor_farm_vehicle_crossing,0.61,754,389,918,556

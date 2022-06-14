@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns149.jpg,Truck_rollover_warning,0.94,512,271,680,444
-roadsigns149.jpg,Straight_ahead_only,0.92,36,45,176,204
-roadsigns149.jpg,School_advance,0.84,752,392,921,560
-roadsigns149.jpg,Keep_right,0.78,274,159,411,322
-roadsigns149.jpg,Go_on_slow,0.62,991,509,1107,674

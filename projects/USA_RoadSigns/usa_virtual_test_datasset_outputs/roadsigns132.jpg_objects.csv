@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns132.jpg,Speed_limit_50,0.97,41,47,210,250
-roadsigns132.jpg,Pass_road,0.93,278,163,389,326
-roadsigns132.jpg,Metric_low_clearance,0.87,991,510,1159,676
-roadsigns132.jpg,Rough_road,0.8,513,275,679,442
-roadsigns132.jpg,Bicycles,0.76,751,390,918,556

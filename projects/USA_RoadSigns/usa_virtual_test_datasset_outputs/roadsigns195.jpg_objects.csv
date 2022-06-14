@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns195.jpg,Circular_intersection_warning,0.96,992,509,1157,676
-roadsigns195.jpg,Minimum_speed_limit_60km,0.94,748,391,891,592
-roadsigns195.jpg,Speed_limit_80km,0.94,280,162,442,363
-roadsigns195.jpg,Pass_road,0.91,42,47,148,205
-roadsigns195.jpg,Narrow_bridge,0.81,516,278,681,441

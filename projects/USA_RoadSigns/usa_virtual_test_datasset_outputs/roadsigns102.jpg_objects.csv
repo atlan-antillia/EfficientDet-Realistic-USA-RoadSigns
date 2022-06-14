@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns102.jpg,Added_lane_from_entering_roadway,0.96,991,509,1155,677
-roadsigns102.jpg,Bike_lane,0.94,513,277,679,403
-roadsigns102.jpg,Road_narrows,0.84,276,158,442,325
-roadsigns102.jpg,Dip,0.67,752,390,917,555
-roadsigns102.jpg,Truck_rollover_warning,0.57,39,45,202,206

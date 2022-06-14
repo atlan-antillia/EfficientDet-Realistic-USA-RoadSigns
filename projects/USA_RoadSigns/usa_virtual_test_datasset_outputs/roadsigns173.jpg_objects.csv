@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns173.jpg,Two_direction,0.98,43,45,201,133
-roadsigns173.jpg,Hill_bicycle,0.93,513,273,678,440
-roadsigns173.jpg,Steep_grade_percentage,0.86,990,513,1159,683
-roadsigns173.jpg,Right_turn_only,0.7,276,157,415,320
-roadsigns173.jpg,Merging_traffic,0.53,753,390,916,557

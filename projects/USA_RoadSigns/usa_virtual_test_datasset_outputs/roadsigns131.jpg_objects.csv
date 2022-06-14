@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns131.jpg,Steep_grade_percentage,0.94,35,46,203,210
-roadsigns131.jpg,Hazardous_material_prohibited,0.91,514,275,677,438
-roadsigns131.jpg,Winding_road,0.91,276,158,444,325
-roadsigns131.jpg,Merging_traffic,0.86,989,510,1158,678
-roadsigns131.jpg,Side_road_at_an_acute_angle,0.77,755,393,916,556

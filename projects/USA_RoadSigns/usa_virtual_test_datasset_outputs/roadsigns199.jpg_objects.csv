@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns199.jpg,Detour,0.98,991,512,1156,646
-roadsigns199.jpg,Speed_limit_80km,0.95,38,46,179,243
-roadsigns199.jpg,Keep_left,0.94,512,272,648,441
-roadsigns199.jpg,Hazardous_material_prohibited,0.93,750,390,916,557
-roadsigns199.jpg,Road_narrows,0.89,277,157,443,326

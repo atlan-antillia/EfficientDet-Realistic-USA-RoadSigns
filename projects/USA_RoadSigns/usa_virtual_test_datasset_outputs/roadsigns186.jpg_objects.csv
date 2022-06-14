@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns186.jpg,Keep_right,0.94,751,391,887,555
-roadsigns186.jpg,Speed_limit_80km,0.93,47,46,201,244
-roadsigns186.jpg,Hill_bicycle,0.91,513,274,680,441
-roadsigns186.jpg,Truck_speed_Limit_40,0.78,277,158,442,327
-roadsigns186.jpg,Y_roads,0.62,994,515,1157,679

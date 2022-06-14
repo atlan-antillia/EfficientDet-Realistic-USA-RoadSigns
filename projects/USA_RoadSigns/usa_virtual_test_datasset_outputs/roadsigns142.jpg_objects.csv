@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns142.jpg,Pass_road,0.95,41,47,149,206
-roadsigns142.jpg,Hazardous_material_prohibited,0.95,989,508,1157,674
-roadsigns142.jpg,Added_lane,0.93,752,392,917,555
-roadsigns142.jpg,Road_narrows,0.65,511,270,680,441
-roadsigns142.jpg,Bicycles_and_pedestrians,0.64,276,160,441,324

@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns163.jpg,Y_roads,0.93,277,161,438,325
-roadsigns163.jpg,Bike_lane_slippery_when_wet,0.92,750,391,916,556
-roadsigns163.jpg,School_advance,0.91,513,275,682,442
-roadsigns163.jpg,Bicycles,0.85,991,507,1158,676
-roadsigns163.jpg,Hazardous_material_prohibited,0.61,37,41,202,207

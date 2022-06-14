@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns172.jpg,Stop,0.96,275,159,440,324
-roadsigns172.jpg,Minimum_speed_limit_60km,0.96,988,504,1131,712
-roadsigns172.jpg,Added_lane_from_entering_roadway,0.95,751,390,917,555
-roadsigns172.jpg,Lane_ends,0.88,512,273,678,439
-roadsigns172.jpg,Hazardous_material_prohibited,0.54,37,44,201,208

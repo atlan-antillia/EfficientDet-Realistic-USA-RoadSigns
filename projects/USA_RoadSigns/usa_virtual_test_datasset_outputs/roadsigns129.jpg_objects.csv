@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns129.jpg,Detour,0.97,751,392,916,526
-roadsigns129.jpg,School_advance,0.95,276,155,444,327
-roadsigns129.jpg,Low_clearance,0.91,989,509,1155,675
-roadsigns129.jpg,Reserved_parking_wheelchair,0.84,38,43,154,207
-roadsigns129.jpg,Keep_left,0.41,517,273,678,365

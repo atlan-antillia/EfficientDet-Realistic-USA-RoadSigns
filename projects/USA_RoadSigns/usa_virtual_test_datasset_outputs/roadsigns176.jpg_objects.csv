@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns176.jpg,Stop,0.97,276,158,441,326
-roadsigns176.jpg,Cross_roads,0.93,753,392,916,556
-roadsigns176.jpg,Hazardous_material_prohibited,0.92,515,273,680,439
-roadsigns176.jpg,Yield,0.89,35,47,202,192
-roadsigns176.jpg,Tractor_farm_vehicle_crossing,0.67,992,513,1158,681

@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns183.jpg,Curve,0.92,750,392,917,556
-roadsigns183.jpg,Road_closed,0.91,276,156,442,271
-roadsigns183.jpg,Winding_road,0.83,37,44,204,209
-roadsigns183.jpg,Cross_roads,0.75,991,512,1155,676
-roadsigns183.jpg,Sharp_turn,0.71,515,274,678,440

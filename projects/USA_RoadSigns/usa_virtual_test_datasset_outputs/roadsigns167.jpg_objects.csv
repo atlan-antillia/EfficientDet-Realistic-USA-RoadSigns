@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns167.jpg,Railroad_crossing,0.92,279,157,442,326
-roadsigns167.jpg,Speed_limit_80km,0.9,513,277,654,478
-roadsigns167.jpg,Minimum_speed_limit_60km,0.87,750,393,890,595
-roadsigns167.jpg,Reserved_parking_wheelchair,0.65,38,44,173,207
-roadsigns167.jpg,Tractor_farm_vehicle_crossing,0.54,992,511,1157,678

@@ -1,6 +1,0 @@
-ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-roadsigns146.jpg,Go_on_slow,0.96,993,509,1158,678
-roadsigns146.jpg,Y_roads,0.95,277,160,441,327
-roadsigns146.jpg,Reverse_turn,0.87,515,276,682,443
-roadsigns146.jpg,Dip,0.7,753,390,916,555
-roadsigns146.jpg,Path_narrows,0.61,39,46,201,208
