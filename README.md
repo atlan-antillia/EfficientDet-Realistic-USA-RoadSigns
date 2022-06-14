@@ -74,7 +74,7 @@ EfficientDet-USA-RoadSigns-86classes
         ├─realistic-test-dataset
         ├─realistic-test-dataset_outputs        
         ├─train
-        └─valid_
+        └─valid
 </pre>
 <br>
 <h3>2.2 Install python packages</h3>
@@ -122,7 +122,8 @@ c:\py38-efficientdet\Lib\site-packages\tensorflow\python\saved_model
 </pre>
 
 <h3>3. Inspect tfrecord</h3>
- Move to ./projects/Japanese_RoadSigns directory, and run the following bat file:<br>
+ Move to ./projects/USA_RoadSigns directory, expand train/train.7z and valid/valid.7z, 
+ and run the following bat file to inspect train/train.tfrecord:<br>
 <pre>
 tfrecord_inspect.bat
 </pre>
