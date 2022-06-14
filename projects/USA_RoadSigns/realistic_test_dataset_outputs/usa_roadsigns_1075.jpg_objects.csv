@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1075.jpg,Night_speed_limit_70km,0.91,229,157,426,404
+usa_roadsigns_1075.jpg,Road_closed_ahead,0.7,858,517,1055,716
+usa_roadsigns_1075.jpg,Reserved_parking_wheelchair,0.65,437,277,567,473
+usa_roadsigns_1075.jpg,No_left_or_u_turn,0.57,648,397,813,565
+usa_roadsigns_1075.jpg,Keep_left,0.43,17,37,178,200

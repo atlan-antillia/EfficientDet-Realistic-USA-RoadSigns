@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1016.jpg,Speed_limit_80km,0.93,649,395,806,637
+usa_roadsigns_1016.jpg,Added_lane_from_entering_roadway,0.64,857,517,1024,681
+usa_roadsigns_1016.jpg,Low_clearance,0.61,437,278,604,440
+usa_roadsigns_1016.jpg,T_roads,0.48,14,41,214,234

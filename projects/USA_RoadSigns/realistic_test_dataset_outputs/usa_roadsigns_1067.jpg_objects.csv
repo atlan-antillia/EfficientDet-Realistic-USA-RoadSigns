@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1067.jpg,Chevron_alignment,0.93,226,158,351,322
+usa_roadsigns_1067.jpg,No_large_trucks,0.6,15,38,211,234
+usa_roadsigns_1067.jpg,Bicycles_and_pedestrians,0.52,856,517,1019,680
+usa_roadsigns_1067.jpg,Truck_rollover_warning,0.52,651,395,842,593

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1034.jpg,Minimum_speed_limit_40,0.9,18,40,211,280
+usa_roadsigns_1034.jpg,Curve,0.88,650,398,844,596
+usa_roadsigns_1034.jpg,Road_closed,0.77,231,158,390,262
+usa_roadsigns_1034.jpg,Narrow_bridge,0.5,441,278,634,475
+usa_roadsigns_1034.jpg,Road_narrows,0.46,859,517,1022,683

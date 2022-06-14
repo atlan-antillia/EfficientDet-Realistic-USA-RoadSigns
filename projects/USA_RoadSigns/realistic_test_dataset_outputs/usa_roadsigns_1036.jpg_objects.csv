@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1036.jpg,Truck_crossing,0.81,854,519,1025,683
+usa_roadsigns_1036.jpg,School_bus_stop_ahead,0.77,231,159,421,352
+usa_roadsigns_1036.jpg,Low_clearance,0.59,438,279,605,440
+usa_roadsigns_1036.jpg,Pass_on_either_side,0.58,645,398,813,563

@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1097.jpg,Pedestrian_crossing,0.7,14,40,183,203
+usa_roadsigns_1097.jpg,No_straight_through,0.63,648,396,814,563
+usa_roadsigns_1097.jpg,Pass_on_either_side,0.62,434,277,602,439
+usa_roadsigns_1097.jpg,Deer_crossing,0.41,226,158,393,321

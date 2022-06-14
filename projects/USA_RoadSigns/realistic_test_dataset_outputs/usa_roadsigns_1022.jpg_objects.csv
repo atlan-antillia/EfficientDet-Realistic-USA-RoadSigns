@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1022.jpg,Road_closed,0.83,859,517,1056,716
+usa_roadsigns_1022.jpg,Bike_lane,0.79,442,280,600,400
+usa_roadsigns_1022.jpg,Right_turn_only,0.78,230,158,361,320
+usa_roadsigns_1022.jpg,Do_not_drive_on_tracks,0.62,17,38,179,199
+usa_roadsigns_1022.jpg,No_straight_through,0.54,650,399,811,560

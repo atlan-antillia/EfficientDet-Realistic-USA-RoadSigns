@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1044.jpg,Speed_limit_80km,0.87,859,520,991,720
+usa_roadsigns_1044.jpg,Chevron_alignment,0.86,644,395,797,596
+usa_roadsigns_1044.jpg,No_left_or_u_turn,0.6,13,39,180,205
+usa_roadsigns_1044.jpg,Road_closed,0.52,229,158,422,283
+usa_roadsigns_1044.jpg,No_left_or_u_turn,0.46,441,275,603,440

@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1098.jpg,Speed_limit_80km,0.88,650,398,781,601
+usa_roadsigns_1098.jpg,Speed_limit_80km,0.87,861,519,995,721
+usa_roadsigns_1098.jpg,Side_road_at_a_perpendicular_angle,0.81,437,277,600,441
+usa_roadsigns_1098.jpg,No_turns,0.43,231,157,422,353

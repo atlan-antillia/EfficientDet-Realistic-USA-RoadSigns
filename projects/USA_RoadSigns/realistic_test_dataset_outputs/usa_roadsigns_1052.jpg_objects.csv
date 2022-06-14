@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1052.jpg,Railroad_crossing,0.97,648,395,844,595
+usa_roadsigns_1052.jpg,Do_not_drive_on_tracks,0.62,13,36,215,235
+usa_roadsigns_1052.jpg,Side_road_at_an_acute_angle,0.6,439,279,600,440
+usa_roadsigns_1052.jpg,Two_way_traffic,0.42,858,517,1019,682
+usa_roadsigns_1052.jpg,Truck_crossing,0.4,230,159,396,321

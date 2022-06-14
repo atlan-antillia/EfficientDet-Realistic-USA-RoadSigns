@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1024.jpg,Steep_grade,0.98,231,157,426,356
+usa_roadsigns_1024.jpg,Chevron_alignment,0.92,857,517,984,683
+usa_roadsigns_1024.jpg,Pass_road,0.89,13,38,143,231
+usa_roadsigns_1024.jpg,Low_clearance,0.66,647,396,843,594
+usa_roadsigns_1024.jpg,T_roads,0.63,440,278,599,439

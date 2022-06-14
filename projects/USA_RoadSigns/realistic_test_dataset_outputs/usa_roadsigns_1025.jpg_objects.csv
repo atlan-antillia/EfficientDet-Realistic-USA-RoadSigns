@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1025.jpg,Railroad_crossing,0.95,14,38,211,231
+usa_roadsigns_1025.jpg,Railroad_crossing,0.83,436,279,602,439
+usa_roadsigns_1025.jpg,Pedestrian_crossing,0.73,647,395,810,559
+usa_roadsigns_1025.jpg,Truck_crossing_2,0.65,229,160,389,321
+usa_roadsigns_1025.jpg,Straight_ahead_only,0.56,858,517,992,681

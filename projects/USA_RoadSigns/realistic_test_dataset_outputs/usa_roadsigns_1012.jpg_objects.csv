@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1012.jpg,Steep_grade_percentage,0.91,646,399,811,561
+usa_roadsigns_1012.jpg,Left_turn_or_straight,0.8,861,518,1022,716
+usa_roadsigns_1012.jpg,Bicycles,0.53,13,38,183,204
+usa_roadsigns_1012.jpg,Circular_intersection_warning,0.43,226,160,395,323

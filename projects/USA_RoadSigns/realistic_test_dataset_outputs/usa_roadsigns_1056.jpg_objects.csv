@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1056.jpg,Pass_road,0.96,228,158,337,321
+usa_roadsigns_1056.jpg,Left_turn_or_straight,0.74,650,399,811,595
+usa_roadsigns_1056.jpg,Straight_ahead_only,0.62,437,278,604,471
+usa_roadsigns_1056.jpg,Right_turn_or_straight,0.56,15,38,180,233
+usa_roadsigns_1056.jpg,No_left_turn,0.56,856,517,1022,684

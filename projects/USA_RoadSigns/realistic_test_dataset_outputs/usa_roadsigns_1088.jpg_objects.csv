@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1088.jpg,Stop,0.94,439,279,603,442
+usa_roadsigns_1088.jpg,Railroad_crossing,0.91,853,517,1021,679
+usa_roadsigns_1088.jpg,Straight_ahead_only,0.89,648,401,786,562
+usa_roadsigns_1088.jpg,Tractor_farm_vehicle_crossing,0.47,230,157,423,354
+usa_roadsigns_1088.jpg,Pass_on_either_side,0.43,15,37,213,235

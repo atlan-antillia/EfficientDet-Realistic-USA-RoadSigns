@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1011.jpg,Steep_grade,0.86,437,278,601,441
+usa_roadsigns_1011.jpg,Speed_limit_50,0.84,654,398,851,642
+usa_roadsigns_1011.jpg,No_straight_through,0.62,232,159,423,354
+usa_roadsigns_1011.jpg,Reverse_curve,0.43,13,35,183,202

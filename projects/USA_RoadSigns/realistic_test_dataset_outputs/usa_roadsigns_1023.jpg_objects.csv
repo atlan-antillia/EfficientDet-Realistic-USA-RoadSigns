@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1023.jpg,Added_lane,0.89,15,37,213,236
+usa_roadsigns_1023.jpg,Road_closed,0.79,649,397,811,502
+usa_roadsigns_1023.jpg,Added_lane_from_entering_roadway,0.74,858,517,1022,684
+usa_roadsigns_1023.jpg,Road_closed_ahead,0.61,439,276,603,441
+usa_roadsigns_1023.jpg,Curve,0.43,227,158,426,357

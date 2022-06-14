@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1066.jpg,Left_turn_or_straight,0.72,648,399,808,592
+usa_roadsigns_1066.jpg,No_turns,0.65,224,157,361,324
+usa_roadsigns_1066.jpg,Reserved_parking_wheelchair,0.59,16,38,131,202
+usa_roadsigns_1066.jpg,Road_closed_ahead,0.53,438,278,604,442
+usa_roadsigns_1066.jpg,Minimum_speed_limit_60km,0.49,861,521,988,680

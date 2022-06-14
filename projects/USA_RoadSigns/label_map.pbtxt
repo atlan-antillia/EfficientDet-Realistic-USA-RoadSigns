@@ -74,9 +74,9 @@ item {
   name: 'Do_not_enter'
 }
 item {
-  display_name: 'Do_not_rive_on_tracks'
+  display_name: 'Do_not_drive_on_tracks'
   id: 16
-  name: 'Do_not_rive_on_tracks'
+  name: 'Do_not_drive_on_tracks'
 }
 item {
   display_name: 'End_detour'
@@ -394,9 +394,9 @@ item {
   name: 'Truck_rollover_warning'
 }
 item {
-  display_name: 'Truck_speed_Limit_40'
+  display_name: 'Truck_speed_limit_40'
   id: 80
-  name: 'Truck_speed_Limit_40'
+  name: 'Truck_speed_limit_40'
 }
 item {
   display_name: 'Two_direction'

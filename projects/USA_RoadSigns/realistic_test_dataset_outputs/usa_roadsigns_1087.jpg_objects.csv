@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1087.jpg,Left_turn_or_straight,0.77,232,161,392,355
+usa_roadsigns_1087.jpg,Truck_rollover_warning,0.7,855,519,1023,685
+usa_roadsigns_1087.jpg,Road_closed_ahead,0.66,13,39,214,232
+usa_roadsigns_1087.jpg,Tractor_farm_vehicle_crossing,0.66,648,397,814,562
+usa_roadsigns_1087.jpg,Merge,0.48,438,277,601,438

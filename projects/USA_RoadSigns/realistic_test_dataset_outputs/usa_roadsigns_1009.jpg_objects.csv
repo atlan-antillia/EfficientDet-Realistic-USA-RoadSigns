@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1009.jpg,Steep_grade_percentage,0.98,651,397,844,598
+usa_roadsigns_1009.jpg,Truck_speed_limit_40,0.93,233,158,445,374
+usa_roadsigns_1009.jpg,Bike_lane_slippery_when_wet,0.78,14,39,215,236
+usa_roadsigns_1009.jpg,Added_lane_from_entering_roadway,0.74,858,517,1020,682
+usa_roadsigns_1009.jpg,No_left_turn,0.6,442,280,601,440

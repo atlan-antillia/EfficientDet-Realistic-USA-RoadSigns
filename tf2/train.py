@@ -23,7 +23,6 @@ import tensorflow as tf
 import dataloader
 import hparams_config
 import utils
-from tf2 import tfmot
 from tf2 import train_lib
 from tf2 import util_keras
 
@@ -102,7 +101,7 @@ def define_flags():
   flags.DEFINE_string('model_name', 'efficientdet-d0', 'Model name.')
   flags.DEFINE_bool('debug', False, 'Enable debug mode')
   flags.DEFINE_integer(
-      'tf_random_seed', 111111,
+      'tf_random_seed', None,
       'Fixed random seed for deterministic execution across runs for debugging.'
   )
   flags.DEFINE_bool('profile', False, 'Enable profile mode')
@@ -164,10 +163,12 @@ def main(_):
     for gpu in tf.config.list_physical_devices('GPU'):
       tf.config.experimental.set_memory_growth(gpu, True)
 
+  if FLAGS.tf_random_seed:
+    tf.keras.utils.set_random_seed(FLAGS.tf_random_seed)
+    tf.config.experimental.enable_op_determinism()
+  
   if FLAGS.debug:
     tf.debugging.set_log_device_placement(True)
-    os.environ['TF_DETERMINISTIC_OPS'] = '1'
-    tf.random.set_seed(FLAGS.tf_random_seed)
     logging.set_verbosity(logging.DEBUG)
 
   if FLAGS.strategy == 'tpu':
@@ -234,23 +235,30 @@ def main(_):
             config.as_dict())
 
   with ds_strategy.scope():
-    if config.model_optimizations:
-      tfmot.set_config(config.model_optimizations.as_dict())
     if FLAGS.hub_module_url:
       model = train_lib.EfficientDetNetTrainHub(
           config=config, hub_module_url=FLAGS.hub_module_url)
     else:
       model = train_lib.EfficientDetNetTrain(config=config)
     model = setup_model(model, config)
+
     if FLAGS.debug:
+      tf.data.experimental.enable_debug_mode()
       tf.config.run_functions_eagerly(True)
-    if FLAGS.pretrained_ckpt and not FLAGS.hub_module_url:
+
+    if tf.train.latest_checkpoint(FLAGS.model_dir):
+      ckpt_path = tf.train.latest_checkpoint(FLAGS.model_dir)
+      util_keras.restore_ckpt(
+          model,
+          ckpt_path,
+          config.moving_average_decay)
+    elif FLAGS.pretrained_ckpt and not FLAGS.hub_module_url:
       ckpt_path = tf.train.latest_checkpoint(FLAGS.pretrained_ckpt)
       util_keras.restore_ckpt(
           model,
           ckpt_path,
           config.moving_average_decay,
-          exclude_layers=['class_net'])
+          exclude_layers=['class_net', 'optimizer', 'box_net'])
     init_experimental(config)
     if 'train' in FLAGS.mode:
       val_dataset = get_dataset(False, config) if 'eval' in FLAGS.mode else None
@@ -258,6 +266,7 @@ def main(_):
           get_dataset(True, config),
           epochs=config.num_epochs,
           steps_per_epoch=steps_per_epoch,
+          initial_epoch=model.optimizer.iterations.numpy() // steps_per_epoch,
           callbacks=train_lib.get_callbacks(config.as_dict(), val_dataset),
           validation_data=val_dataset,
           validation_steps=(FLAGS.eval_samples // FLAGS.batch_size))
@@ -274,7 +283,7 @@ def main(_):
 
         val_dataset = get_dataset(False, config)
         logging.info('start loading model.')
-        model.load_weights(tf.train.latest_checkpoint(FLAGS.model_dir))
+        model.load_weights(ckpt)
         logging.info('finish loading model.')
         coco_eval = train_lib.COCOCallback(val_dataset, 1)
         coco_eval.set_model(model)

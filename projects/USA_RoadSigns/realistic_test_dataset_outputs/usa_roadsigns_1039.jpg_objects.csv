@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1039.jpg,Parking_with_time_restrictions,0.98,858,516,970,681
+usa_roadsigns_1039.jpg,Hairpin_curve,0.86,16,37,210,232
+usa_roadsigns_1039.jpg,T_roads,0.73,649,399,808,560
+usa_roadsigns_1039.jpg,School_advance,0.72,226,159,391,323
+usa_roadsigns_1039.jpg,Hill_bicycle,0.58,438,277,604,440

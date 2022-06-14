@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1029.jpg,Sharp_turn,0.81,439,278,604,442
+usa_roadsigns_1029.jpg,Road_narrows,0.75,14,36,211,232
+usa_roadsigns_1029.jpg,No_u_turn,0.62,650,399,839,592
+usa_roadsigns_1029.jpg,T_roads,0.55,228,160,388,318
+usa_roadsigns_1029.jpg,No_straight_through,0.48,858,517,1021,684

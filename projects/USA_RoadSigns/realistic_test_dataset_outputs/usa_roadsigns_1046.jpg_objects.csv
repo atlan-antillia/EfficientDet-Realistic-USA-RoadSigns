@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1046.jpg,Bike_lane,0.92,230,159,392,279
+usa_roadsigns_1046.jpg,Bike_lane,0.86,18,40,213,184
+usa_roadsigns_1046.jpg,Reverse_turn,0.8,437,279,635,475
+usa_roadsigns_1046.jpg,School_bus_stop_ahead,0.73,857,518,1022,684
+usa_roadsigns_1046.jpg,Steep_grade,0.57,649,395,842,597

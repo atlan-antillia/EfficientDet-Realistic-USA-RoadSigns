@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1099.jpg,Stop,0.93,230,159,391,321
+usa_roadsigns_1099.jpg,Railroad_crossing,0.93,13,37,185,200
+usa_roadsigns_1099.jpg,Speed_limit_50,0.86,440,279,607,479
+usa_roadsigns_1099.jpg,Truck_rollover_warning,0.72,650,396,839,594
+usa_roadsigns_1099.jpg,Truck_rollover_warning,0.53,855,519,1024,683

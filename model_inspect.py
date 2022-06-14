@@ -14,8 +14,6 @@
 # ==============================================================================
 r"""Tool to inspect a model."""
 import os
-os.environ['TF_FORCE_GPU_ALLOW_GROWTH'] = 'true'
-
 import time
 from typing import Text, Tuple, List
 
@@ -28,14 +26,9 @@ from PIL import Image
 import tensorflow.compat.v1 as tf
 
 import hparams_config
-
-#import inference
-import inference2 as inference
-
+import inference
 import utils
 from tensorflow.python.client import timeline  # pylint: disable=g-direct-tensorflow-import
-
-from DetectResultsWriter      import DetectResultsWriter
 
 flags.DEFINE_string('model_name', 'efficientdet-d0', 'Model.')
 flags.DEFINE_string('logdir', '/tmp/deff/', 'log directory.')
@@ -157,73 +150,44 @@ class ModelInspector(object):
     driver.build()
     driver.export(self.saved_model_dir, self.tflite_path, self.tensorrt)
 
-  #2022/03/11 Modified to be able to write the detection results.
-  #2022/03/14 Modified to write dection results into all_prediction_file csv file 
   def saved_model_inference(self, image_path_pattern, output_dir, **kwargs):
     """Perform inference for the given saved model."""
-    print("=== ModelInspector.saved_model_inference -----------")
-
-
     driver = inference.ServingDriver(
         self.model_name,
         self.ckpt_path,
-        batch_size   = self.batch_size,
-        use_xla      = self.use_xla,
-        model_params = self.model_config.as_dict(),
+        batch_size=self.batch_size,
+        use_xla=self.use_xla,
+        model_params=self.model_config.as_dict(),
         **kwargs)
     driver.load(self.saved_model_dir)
-    
+
     # Serving time batch size should be fixed.
     batch_size = self.batch_size or 1
     all_files = list(tf.io.gfile.glob(image_path_pattern))
-    #print('all_files=', all_files)
+    print('all_files=', all_files)
     num_batches = (len(all_files) + batch_size - 1) // batch_size
 
-    all_predictions_csv = os.path.join(output_dir, "all_prediction.csv")
-    NL = "\n"
-    with open(all_predictions_csv, mode="w") as all_prediction_file:
-      HEADER = "ImageID, Label, Confidence, XMin, YMin, XMax, YMax" + NL
-      all_prediction_file.write(HEADER)
-
-      for i in range(num_batches):
-        batch_files = all_files[i * batch_size:(i + 1) * batch_size]
-        height, width = self.model_config.image_size
-        images = [Image.open(f) for f in batch_files]
-        filenames = [f for f in batch_files]
-        #print("--- filenames {}".format(filenames))
-        if len(set([m.size for m in images])) > 1:
+    for i in range(num_batches):
+      batch_files = all_files[i * batch_size:(i + 1) * batch_size]
+      height, width = self.model_config.image_size
+      images = [Image.open(f) for f in batch_files]
+      if len(set([m.size for m in images])) > 1:
         # Resize only if images in the same batch have different sizes.
-          images = [m.resize(height, width) for m in images]
-        raw_images = [np.array(m) for m in images]
-        size_before_pad = len(raw_images)
-        if size_before_pad < batch_size:
-          padding_size = batch_size - size_before_pad
-          raw_images += [np.zeros_like(raw_images[0])] * padding_size
+        images = [m.resize(height, width) for m in images]
+      raw_images = [np.array(m) for m in images]
+      size_before_pad = len(raw_images)
+      if size_before_pad < batch_size:
+        padding_size = batch_size - size_before_pad
+        raw_images += [np.zeros_like(raw_images[0])] * padding_size
 
-        detections_bs = driver.serve_images(raw_images)
+      detections_bs = driver.serve_images(raw_images)
+      for j in range(size_before_pad):
+        img = driver.visualize(raw_images[j], detections_bs[j], **kwargs)
+        img_id = str(i * batch_size + j)
+        output_image_path = os.path.join(output_dir, img_id + '.jpg')
+        Image.fromarray(img).save(output_image_path)
+        print('writing file to %s' % output_image_path)
 
-        for j in range(size_before_pad):
-          (image, detected_objects, objects_stats)= driver.visualize(None, 
-                                                                    raw_images[j], 
-                                                                    detections_bs[j], 
-                                                                    **kwargs)
-
-          img_id = str(i * batch_size + j)
-
-          filename = all_files[int(img_id)]
-          name = os.path.basename(filename)
-          print("----------------- name " + name)
-          output_image_path = os.path.join(output_dir, name )
-          #output_image_path = os.path.join(output_dir, img_id + '.jpg')
-        
-          Image.fromarray(image).save(output_image_path)
-          print('=== writing file to %s' % output_image_path)
-          detect_results_writer = DetectResultsWriter(output_image_path)
-          print("=== Writing detected_objects and objects_stats to csv files")
-          #detect_results_writer.write(detected_objects, objects_stats)
-          detect_results_writer.write_withname(name, detected_objects, objects_stats, all_prediction_file)
-  
-  
   def saved_model_benchmark(self,
                             image_path_pattern,
                             trace_filename=None,
@@ -288,11 +252,8 @@ class ModelInspector(object):
           break
 
   def inference_single_image(self, image_image_path, output_dir, **kwargs):
-    print("---- output_dir {}".format(output_dir))
     driver = inference.InferenceDriver(self.model_name, self.ckpt_path,
                                        self.model_config.as_dict())
-  
-    print("---- output_dir22 {}".format(output_dir))
     driver.inference(image_image_path, output_dir, **kwargs)
 
   def build_and_save_model(self):
@@ -500,18 +461,12 @@ class ModelInspector(object):
       if runmode == 'saved_model':
         self.export_saved_model(**config_dict)
       elif runmode == 'infer':
-        input_image  = kwargs['input_image']
-        output_image_dir = kwargs['output_image_dir']
-        print("----run_mode infer {}".format(kwargs['output_image_dir']))
-        os.makedirs(kwargs['output_image_dir'], exist_ok=True)        
-        self.inference_single_image(input_image,
-                                    output_image_dir, **config_dict)
+        self.inference_single_image(kwargs['input_image'],
+                                    kwargs['output_image_dir'], **config_dict)
       elif runmode == 'saved_model_infer':
-        os.makedirs(kwargs['output_image_dir'], exist_ok=True)
         self.saved_model_inference(kwargs['input_image'],
                                    kwargs['output_image_dir'], **config_dict)
       elif runmode == 'saved_model_video':
-        os.makedirs(kwargs['output_video'], exist_ok=True)
         self.saved_model_video(kwargs['input_video'], kwargs['output_video'],
                                **config_dict)
     elif runmode == 'bm':

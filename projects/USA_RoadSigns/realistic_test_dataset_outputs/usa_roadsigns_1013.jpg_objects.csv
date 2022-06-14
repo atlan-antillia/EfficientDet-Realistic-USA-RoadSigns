@@ -1,0 +1,7 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1013.jpg,Left_turn_or_straight,0.87,438,279,577,442
+usa_roadsigns_1013.jpg,Parking_with_time_restrictions,0.78,16,35,126,201
+usa_roadsigns_1013.jpg,Truck_crossing_2,0.7,229,160,394,322
+usa_roadsigns_1013.jpg,No_left_or_u_turn,0.65,649,398,811,560
+usa_roadsigns_1013.jpg,No_straight_through,0.49,858,517,1019,683
+usa_roadsigns_1013.jpg,Side_road_at_a_perpendicular_angle,0.4,18,332,230,659

@@ -1,0 +1,4 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1027.jpg,Night_speed_limit_45,0.99,653,398,865,619
+usa_roadsigns_1027.jpg,Railroad_crossing_ahead,0.91,434,274,632,476
+usa_roadsigns_1027.jpg,School_bus_stop_ahead,0.59,861,517,1051,665

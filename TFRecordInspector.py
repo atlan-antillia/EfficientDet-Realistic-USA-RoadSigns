@@ -41,9 +41,10 @@ Part of tensorflow-view repo: https://github.com/EricThomson/tfrecord-view
 
 import os
 import sys
+sys.path.append("../../")
 from pprint import pprint
 import cv2
-
+import glob
 from PIL import Image, ImageDraw, ImageFont
 import numpy as np
 import tensorflow as tf
@@ -209,7 +210,7 @@ class TFRecordInspector:
 #
 # python TFRecordInspector.py ./tfrecord/sample.tfrecord ./tfrecord/label_map.pbtxt ./output   [True/False]
 # python TFRecordInspector.py ./tfrecord/valid/valid.tfrecord ./label_map.pbtxt ./output/valid [True/False]
-
+# python TFRecordInsep1ector.py ./projects/USA_RoadSigns/train/train.tfrecord ./projects/USA_RoadSigns/label_map.pbtxt ./inspector/train
 #
 if __name__ == '__main__':
   #tf.disable_eager_execution()
@@ -227,9 +228,14 @@ if __name__ == '__main__':
       output_images_dir = sys.argv[3]
     if len(sys.argv) == 5:
       with_annotation =  eval(sys.argv[4])
-
-    if not os.path.exists(tfrecord_file):
-        raise Exception(" Not found " + tfrecord_file)
+    tfrecords = None
+    print(tfrecord_file)
+    if "*" in tfrecord_file:
+      tfrecords = glob.glob(tfrecord_file)
+    elif os.path.exists(tfrecord_file):
+      tfrecords = [tfrecord_file]
+    else:
+      raise Exception(" Not found " + tfrecord_file)
 
     if not os.path.exists(label_map_pbtxt):
         raise Exception(" Not found " + label_map_pbtxt)
@@ -240,12 +246,12 @@ if __name__ == '__main__':
     print("=== label_map_pbtxt   {}".format(label_map_pbtxt))
     print("=== output_images_dir {}".format(output_images_dir))
     print("=== with_annotation   {}".format(with_annotation))
-
-    inspector = TFRecordInspector(tfrecord_file, 
+    for tfrecord in tfrecords:
+      inspector = TFRecordInspector(tfrecord, 
                                     label_map_pbtxt, 
                                     output_images_dir, 
                                     with_annotation=with_annotation)
-    inspector.extract_images()
+      inspector.extract_images()
       
   except Exception as ex:
     traceback.print_exc()

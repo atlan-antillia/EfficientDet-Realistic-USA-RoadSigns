@@ -28,6 +28,7 @@ from absl import logging
 import numpy as np
 from PIL import Image
 import tensorflow.compat.v1 as tf
+#import tensorflow as tf
 
 import dataloader
 import det_model_fn
@@ -463,7 +464,9 @@ class ServingDriver(object):
       self.sess.close()
 
   def _build_session(self):
-    sess_config = tf.ConfigProto()
+    #sess_config = tf.ConfigProto()
+    sess_config = tf.compat.v1.ConfigProto()
+
     if self.use_xla:
       sess_config.graph_options.optimizer_options.global_jit_level = (
           tf.OptimizerOptions.ON_2)

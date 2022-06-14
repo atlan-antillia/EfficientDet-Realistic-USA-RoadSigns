@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1028.jpg,Two_direction,0.88,231,159,388,241
+usa_roadsigns_1028.jpg,Road_closed,0.84,441,279,602,383
+usa_roadsigns_1028.jpg,No_turns,0.72,859,518,1053,718
+usa_roadsigns_1028.jpg,Railroad_crossing_ahead,0.64,13,39,184,204
+usa_roadsigns_1028.jpg,Do_not_drive_on_tracks,0.59,650,398,842,593

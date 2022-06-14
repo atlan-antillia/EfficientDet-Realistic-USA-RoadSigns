@@ -396,7 +396,7 @@ class InputReader:
   @property
   def dataset_options(self):
     options = tf.data.Options()
-    options.experimental_deterministic = self._debug or not self._is_training
+    options.deterministic = self._debug or not self._is_training
     options.experimental_optimization.map_parallelization = True
     options.experimental_optimization.parallel_batch = True
     return options
@@ -414,7 +414,7 @@ class InputReader:
     )
 
     batch_size = batch_size or params['batch_size']
-    seed = params['tf_random_seed'] if self._debug else None
+    seed = params.get('tf_random_seed', None)
     dataset = tf.data.Dataset.list_files(
         self._file_pattern, shuffle=self._is_training, seed=seed)
     if input_context:
@@ -429,7 +429,7 @@ class InputReader:
       return dataset
 
     dataset = dataset.interleave(
-        _prefetch_dataset, num_parallel_calls=tf.data.AUTOTUNE)
+        _prefetch_dataset, num_parallel_calls=tf.data.AUTOTUNE, deterministic=bool(seed))
     dataset = dataset.with_options(self.dataset_options)
     if self._is_training:
       dataset = dataset.shuffle(64, seed=seed)

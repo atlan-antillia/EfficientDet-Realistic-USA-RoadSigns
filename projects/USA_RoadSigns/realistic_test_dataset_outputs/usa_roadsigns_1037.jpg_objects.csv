@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1037.jpg,Speed_limit_50,0.88,652,398,820,602
+usa_roadsigns_1037.jpg,Sharp_turn,0.81,856,517,1022,684
+usa_roadsigns_1037.jpg,Road_closed,0.63,227,156,420,280
+usa_roadsigns_1037.jpg,No_u_turn,0.59,441,280,632,471
+usa_roadsigns_1037.jpg,No_parking,0.49,12,35,182,205

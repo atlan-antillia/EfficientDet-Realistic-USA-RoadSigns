@@ -1,0 +1,6 @@
+id, class, count
+1,Left_turn_or_straight,1
+2,Cross_roads,1
+3,Left_turn_only,1
+4,No_turns,1
+5,Truck_rollover_warning,1

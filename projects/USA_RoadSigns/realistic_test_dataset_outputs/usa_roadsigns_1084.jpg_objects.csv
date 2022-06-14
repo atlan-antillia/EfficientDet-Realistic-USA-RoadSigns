@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1084.jpg,One_direction,0.95,17,35,181,120
+usa_roadsigns_1084.jpg,Stop,0.93,650,400,812,563
+usa_roadsigns_1084.jpg,Chevron_alignment,0.93,435,277,587,474
+usa_roadsigns_1084.jpg,Truck_crossing_2,0.45,228,160,425,357

@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1086.jpg,Two_direction,0.87,442,277,597,360
+usa_roadsigns_1086.jpg,Detour,0.77,234,158,421,312
+usa_roadsigns_1086.jpg,Deer_crossing,0.55,857,519,1021,684
+usa_roadsigns_1086.jpg,Road_closed_ahead,0.54,651,402,846,594

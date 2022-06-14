@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1020.jpg,Added_lane_from_entering_roadway,0.87,860,514,1052,714
+usa_roadsigns_1020.jpg,School_advance,0.74,440,278,602,438
+usa_roadsigns_1020.jpg,Road_narrows,0.73,15,37,181,201
+usa_roadsigns_1020.jpg,Merging_traffic,0.67,649,399,846,597
+usa_roadsigns_1020.jpg,No_large_trucks,0.59,226,156,391,319

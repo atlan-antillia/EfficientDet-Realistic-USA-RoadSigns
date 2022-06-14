@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1032.jpg,Steep_grade,0.99,439,278,633,474
+usa_roadsigns_1032.jpg,Detour,0.89,14,37,213,195
+usa_roadsigns_1032.jpg,Speed_limit_80km,0.88,651,400,786,602
+usa_roadsigns_1032.jpg,Two_way_traffic,0.88,859,517,1055,717
+usa_roadsigns_1032.jpg,T_roads,0.5,231,160,424,355

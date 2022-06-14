@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1010.jpg,Truck_rollover_warning,0.92,437,276,633,475
+usa_roadsigns_1010.jpg,Night_speed_limit_70km,0.86,228,159,389,361
+usa_roadsigns_1010.jpg,Detour,0.69,654,398,841,552
+usa_roadsigns_1010.jpg,No_straight_through,0.58,859,515,1018,683
+usa_roadsigns_1010.jpg,No_parking,0.48,14,38,211,229

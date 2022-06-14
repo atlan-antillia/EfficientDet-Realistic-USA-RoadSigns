@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1051.jpg,No_left_or_u_turn,0.73,13,38,182,206
+usa_roadsigns_1051.jpg,Road_narrows,0.58,231,158,421,352
+usa_roadsigns_1051.jpg,Pass_on_either_side,0.54,438,279,636,475
+usa_roadsigns_1051.jpg,Stop,0.51,858,512,1023,683
+usa_roadsigns_1051.jpg,T_roads,0.44,649,395,846,596

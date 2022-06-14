@@ -21,23 +21,8 @@ from absl import flags
 from absl import logging
 import numpy as np
 import tensorflow.compat.v1 as tf
-
+#import tensorflow as tf
 #Tensorflow2.0
-"""
-gpus = tf.config.experimental.list_physical_devices('GPU')
-print("---- gpus {}".format(gpus))
-if gpus:
-  # Restrict TensorFlow to only allocate 1GB of memory on the first GPU
-  try:
-    tf.config.experimental.set_virtual_device_configuration(
-        gpus[0],
-        [tf.config.experimental.VirtualDeviceConfiguration(memory_limit=1024*5)])
-    logical_gpus = tf.config.experimental.list_logical_devices('GPU')
-    print(len(gpus), "Physical GPUs,", len(logical_gpus), "Logical GPUs")
-  except RuntimeError as e:
-    # Virtual devices must be set before GPUs have been initialized
-    print(e)
-"""
 
 import dataloader
 
@@ -437,7 +422,8 @@ def main(_):
       if early_stopping != None:
         ap = eval_results['AP']
         ar = eval_results['ARmax1']
-        breaking_loop = early_stopping.validate(e, ap, ar)
+        #2022/05/10 
+        early_stop = early_stopping.validate(e, ap, ar)
       return early_stop
       # </added>
 

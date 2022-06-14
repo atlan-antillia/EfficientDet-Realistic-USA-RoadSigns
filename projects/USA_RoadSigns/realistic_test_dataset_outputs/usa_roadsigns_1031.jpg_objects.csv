@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1031.jpg,Side_road_at_an_acute_angle,0.83,651,398,809,557
+usa_roadsigns_1031.jpg,Side_road_at_a_perpendicular_angle,0.63,228,158,391,322
+usa_roadsigns_1031.jpg,School_bus_stop_ahead,0.62,13,35,211,232
+usa_roadsigns_1031.jpg,Hill_bicycle,0.44,439,277,601,439
+usa_roadsigns_1031.jpg,Truck_crossing,0.43,858,518,1018,681

@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1064.jpg,Hairpin_curve,0.89,439,277,633,475
+usa_roadsigns_1064.jpg,Bicycles_and_pedestrians,0.74,227,156,421,353
+usa_roadsigns_1064.jpg,Detour,0.69,654,400,842,552
+usa_roadsigns_1064.jpg,No_left_or_u_turn,0.66,15,39,179,203
+usa_roadsigns_1064.jpg,No_straight_through,0.64,858,517,1055,717

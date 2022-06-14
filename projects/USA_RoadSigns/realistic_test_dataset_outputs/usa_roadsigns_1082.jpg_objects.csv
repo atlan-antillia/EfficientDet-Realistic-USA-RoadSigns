@@ -1,0 +1,6 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1082.jpg,Pass_road,0.93,855,516,968,681
+usa_roadsigns_1082.jpg,Truck_crossing_2,0.78,14,33,182,205
+usa_roadsigns_1082.jpg,Pass_on_either_side,0.53,648,398,812,559
+usa_roadsigns_1082.jpg,Narrow_bridge,0.52,229,159,392,320
+usa_roadsigns_1082.jpg,Merge,0.46,438,278,603,442

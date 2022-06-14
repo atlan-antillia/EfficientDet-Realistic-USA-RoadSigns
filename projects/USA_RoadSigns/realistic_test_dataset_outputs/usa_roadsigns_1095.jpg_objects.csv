@@ -1,0 +1,5 @@
+ImageID, Label, Confidence, XMin, YMin, XMax, YMax
+usa_roadsigns_1095.jpg,Left_turn_or_straight,0.87,859,518,998,681
+usa_roadsigns_1095.jpg,Bike_lane,0.87,442,280,601,402
+usa_roadsigns_1095.jpg,Road_closed,0.72,15,37,179,139
+usa_roadsigns_1095.jpg,Added_lane,0.67,229,157,420,354
