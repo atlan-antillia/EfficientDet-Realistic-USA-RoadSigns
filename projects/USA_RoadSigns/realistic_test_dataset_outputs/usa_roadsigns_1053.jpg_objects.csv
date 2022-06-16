@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1053.jpg,Tractor_farm_vehicle_crossing,0.94,439,278,634,474
-usa_roadsigns_1053.jpg,Chevron_alignment,0.91,648,397,774,562
-usa_roadsigns_1053.jpg,Detour,0.89,14,37,214,194
-usa_roadsigns_1053.jpg,Road_closed,0.7,862,520,1052,645
-usa_roadsigns_1053.jpg,Road_closed,0.62,232,158,421,282
+usa_roadsigns_1053.jpg,Tractor_farm_vehicle_crossing,0.94,439,279,637,476
+usa_roadsigns_1053.jpg,Road_closed,0.9,864,520,1053,642
+usa_roadsigns_1053.jpg,Truck_speed_limit_40,0.85,232,159,422,283
+usa_roadsigns_1053.jpg,Detour,0.79,16,37,213,196
+usa_roadsigns_1053.jpg,Chevron_alignment,0.75,647,399,774,562

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1026.jpg,One_direction,0.93,23,37,211,134
-usa_roadsigns_1026.jpg,Left_turn_or_straight,0.82,859,517,1022,716
-usa_roadsigns_1026.jpg,Railroad_crossing_ahead,0.65,228,155,393,322
-usa_roadsigns_1026.jpg,Road_closed,0.64,648,397,815,560
-usa_roadsigns_1026.jpg,School_bus_stop_ahead,0.63,440,276,602,439
+usa_roadsigns_1026.jpg,Right_turn_or_straight,0.82,857,518,1024,716
+usa_roadsigns_1026.jpg,School_bus_stop_ahead,0.8,437,276,599,439
+usa_roadsigns_1026.jpg,Chevron_alignment,0.72,22,36,211,135
+usa_roadsigns_1026.jpg,Low_clearance,0.52,648,398,812,561
+usa_roadsigns_1026.jpg,Left_turn_only,0.51,225,158,394,322

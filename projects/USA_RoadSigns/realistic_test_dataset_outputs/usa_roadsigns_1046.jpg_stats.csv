@@ -1,5 +1,5 @@
 id, class, count
 1,Bike_lane,2
-2,Reverse_turn,1
-3,School_bus_stop_ahead,1
-4,Steep_grade,1
+2,School_bus_stop_ahead,1
+3,Bicycles_and_pedestrians,1
+4,Tractor_farm_vehicle_crossing,1

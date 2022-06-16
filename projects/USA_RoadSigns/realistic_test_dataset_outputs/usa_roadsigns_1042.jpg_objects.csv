@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1042.jpg,School_bus_stop_ahead,0.92,859,515,1054,716
-usa_roadsigns_1042.jpg,Detour,0.9,13,37,213,193
-usa_roadsigns_1042.jpg,Night_speed_limit_70km,0.84,438,279,598,483
-usa_roadsigns_1042.jpg,School_bus_stop_ahead,0.79,649,398,845,597
-usa_roadsigns_1042.jpg,No_straight_through,0.72,230,159,424,354
+usa_roadsigns_1042.jpg,School_bus_stop_ahead,0.98,856,516,1052,714
+usa_roadsigns_1042.jpg,Truck_crossing,0.82,651,398,845,597
+usa_roadsigns_1042.jpg,Detour,0.75,17,36,214,195
+usa_roadsigns_1042.jpg,No_left_turn,0.59,230,159,427,354
+usa_roadsigns_1042.jpg,Night_speed_limit_70km,0.58,438,280,600,482

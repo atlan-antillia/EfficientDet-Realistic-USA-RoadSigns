@@ -1,5 +1,5 @@
 id, class, count
-1,Circular_intersection_warning,1
-2,No_left_or_u_turn,1
+1,Truck_crossing,1
+2,No_parking,1
 3,No_straight_through,2
-4,Truck_crossing,1
+4,Circular_intersection_warning,1

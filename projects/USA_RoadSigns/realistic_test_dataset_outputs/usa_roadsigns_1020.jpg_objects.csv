@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1020.jpg,Added_lane_from_entering_roadway,0.87,860,514,1052,714
-usa_roadsigns_1020.jpg,School_advance,0.74,440,278,602,438
-usa_roadsigns_1020.jpg,Road_narrows,0.73,15,37,181,201
-usa_roadsigns_1020.jpg,Merging_traffic,0.67,649,399,846,597
-usa_roadsigns_1020.jpg,No_large_trucks,0.59,226,156,391,319
+usa_roadsigns_1020.jpg,Merging_traffic,0.84,648,400,845,597
+usa_roadsigns_1020.jpg,School_advance,0.71,441,278,602,437
+usa_roadsigns_1020.jpg,Pedestrian_crossing,0.56,14,39,181,201
+usa_roadsigns_1020.jpg,Hairpin_curve,0.5,230,157,391,320

@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1040.jpg,Pedestrian_crossing,0.85,855,519,1022,684
-usa_roadsigns_1040.jpg,Minimum_speed_limit_60km,0.84,16,39,151,240
-usa_roadsigns_1040.jpg,Left_turn_or_straight,0.84,440,278,602,473
-usa_roadsigns_1040.jpg,Truck_crossing_2,0.83,228,156,395,320
-usa_roadsigns_1040.jpg,Road_closed,0.51,648,398,811,559
+usa_roadsigns_1040.jpg,Left_turn_or_straight,0.7,441,278,602,474
+usa_roadsigns_1040.jpg,Minimum_speed_limit_60km,0.64,15,38,152,239
+usa_roadsigns_1040.jpg,T_roads,0.55,228,158,395,321
+usa_roadsigns_1040.jpg,Low_clearance,0.46,649,398,808,559

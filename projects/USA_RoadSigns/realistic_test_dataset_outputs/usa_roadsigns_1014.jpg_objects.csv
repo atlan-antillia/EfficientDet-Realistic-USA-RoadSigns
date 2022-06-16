@@ -1,5 +1,4 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1014.jpg,Parking_with_time_restrictions,0.89,228,155,340,319
-usa_roadsigns_1014.jpg,School_bus_stop_ahead,0.85,648,397,812,559
-usa_roadsigns_1014.jpg,No_left_turn,0.77,18,38,179,200
-usa_roadsigns_1014.jpg,School_bus_stop_ahead,0.77,858,519,1022,642
+usa_roadsigns_1014.jpg,Parking_with_time_restrictions,0.9,227,158,339,322
+usa_roadsigns_1014.jpg,School_bus_stop_ahead,0.84,648,395,808,558
+usa_roadsigns_1014.jpg,End_detour,0.69,859,518,1020,640

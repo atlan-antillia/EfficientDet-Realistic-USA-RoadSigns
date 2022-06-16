@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1005.jpg,Railroad_crossing,0.93,11,35,185,199
-usa_roadsigns_1005.jpg,Side_road_at_an_acute_angle,0.8,438,280,633,475
-usa_roadsigns_1005.jpg,Bike_lane,0.76,231,159,422,306
-usa_roadsigns_1005.jpg,No_straight_through,0.69,857,519,1021,685
+usa_roadsigns_1005.jpg,Merging_traffic,0.81,440,280,632,477
+usa_roadsigns_1005.jpg,Bike_lane,0.74,231,159,422,306
+usa_roadsigns_1005.jpg,Railroad_crossing,0.72,10,36,183,200
+usa_roadsigns_1005.jpg,No_left_turn,0.65,857,517,1022,681

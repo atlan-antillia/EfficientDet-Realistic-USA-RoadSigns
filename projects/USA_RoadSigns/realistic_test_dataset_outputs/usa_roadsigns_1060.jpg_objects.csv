@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1060.jpg,Steep_grade,0.99,650,397,845,597
-usa_roadsigns_1060.jpg,Added_lane,0.74,438,277,632,475
-usa_roadsigns_1060.jpg,Tractor_farm_vehicle_crossing,0.6,16,38,211,232
-usa_roadsigns_1060.jpg,Added_lane,0.54,231,158,390,320
-usa_roadsigns_1060.jpg,Pass_on_either_side,0.51,856,517,1051,716
+usa_roadsigns_1060.jpg,Steep_grade,0.96,650,398,845,597
+usa_roadsigns_1060.jpg,Two_way_traffic,0.71,228,156,390,320
+usa_roadsigns_1060.jpg,Merge,0.7,857,517,1052,714
+usa_roadsigns_1060.jpg,Bump,0.6,15,39,213,233
+usa_roadsigns_1060.jpg,Lane_ends,0.5,438,277,634,474

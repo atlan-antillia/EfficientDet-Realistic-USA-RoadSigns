@@ -1,6 +1,6 @@
 id, class, count
 1,Two_direction,1
 2,Road_closed,1
-3,No_turns,1
-4,Railroad_crossing_ahead,1
-5,Do_not_drive_on_tracks,1
+3,Railroad_crossing_ahead,1
+4,Do_not_drive_on_tracks,1
+5,No_turns,1

@@ -1,5 +1,6 @@
 id, class, count
 1,Two_direction,1
-2,Detour,1
-3,Deer_crossing,1
-4,Road_closed_ahead,1
+2,Road_closed_ahead,1
+3,Detour,1
+4,Added_lane_from_entering_roadway,1
+5,Merge,1

@@ -1,5 +1,5 @@
 id, class, count
-1,Circular_intersection_warning,1
-2,Road_closed,1
-3,Bike_lane_slippery_when_wet,1
-4,Road_narrows,1
+1,Road_closed,1
+2,Added_lane_from_entering_roadway,1
+3,Bike_lane_slippery_when_wet,2
+4,No_bicycles,1

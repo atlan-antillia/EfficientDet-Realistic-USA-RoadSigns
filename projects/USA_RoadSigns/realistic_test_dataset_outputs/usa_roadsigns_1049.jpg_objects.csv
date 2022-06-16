@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1049.jpg,One_direction,0.98,443,280,632,380
-usa_roadsigns_1049.jpg,Road_closed_ahead,0.8,650,397,845,597
-usa_roadsigns_1049.jpg,No_straight_through,0.52,860,518,1020,646
-usa_roadsigns_1049.jpg,Hill_bicycle,0.47,226,156,425,357
+usa_roadsigns_1049.jpg,One_direction,0.93,443,280,633,380
+usa_roadsigns_1049.jpg,Detour,0.87,861,519,1019,650
+usa_roadsigns_1049.jpg,Road_closed_ahead,0.83,649,397,847,596
+usa_roadsigns_1049.jpg,Bump,0.77,228,157,428,358
+usa_roadsigns_1049.jpg,Bump,0.46,14,38,182,202

@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1071.jpg,Dip,0.75,15,36,214,238
-usa_roadsigns_1071.jpg,Two_way_traffic,0.7,857,517,1023,683
-usa_roadsigns_1071.jpg,Road_closed,0.68,649,396,846,598
-usa_roadsigns_1071.jpg,Sharp_turn,0.66,439,275,604,441
+usa_roadsigns_1071.jpg,Dip,0.96,14,38,215,238
+usa_roadsigns_1071.jpg,Two_way_traffic,0.87,857,513,1023,684
+usa_roadsigns_1071.jpg,Sharp_turn,0.73,436,276,603,442
+usa_roadsigns_1071.jpg,Sharp_turn,0.67,648,397,846,596

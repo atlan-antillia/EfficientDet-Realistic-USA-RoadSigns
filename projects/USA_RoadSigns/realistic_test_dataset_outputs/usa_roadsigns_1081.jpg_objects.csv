@@ -1,5 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1081.jpg,School_advance,0.79,226,157,420,352
-usa_roadsigns_1081.jpg,Truck_rollover_warning,0.59,647,398,815,562
-usa_roadsigns_1081.jpg,Road_narrows,0.44,857,518,1023,684
-usa_roadsigns_1081.jpg,Right_turn_only,0.41,437,278,598,469
+usa_roadsigns_1081.jpg,Bike_lane_slippery_when_wet,0.73,18,38,181,200
+usa_roadsigns_1081.jpg,School_bus_stop_ahead,0.71,859,518,1023,683
+usa_roadsigns_1081.jpg,Reverse_curve,0.64,229,158,423,352
+usa_roadsigns_1081.jpg,Right_turn_only,0.61,440,278,598,469

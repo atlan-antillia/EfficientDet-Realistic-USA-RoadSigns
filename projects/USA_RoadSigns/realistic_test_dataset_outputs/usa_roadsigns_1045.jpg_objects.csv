@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1045.jpg,Bicycles_and_pedestrians,0.94,15,36,210,234
-usa_roadsigns_1045.jpg,Tractor_farm_vehicle_crossing,0.92,859,517,1052,716
-usa_roadsigns_1045.jpg,Night_speed_limit_45,0.88,232,155,408,341
-usa_roadsigns_1045.jpg,Railroad_crossing_ahead,0.75,434,276,605,440
-usa_roadsigns_1045.jpg,School_bus_stop_ahead,0.56,651,399,810,529
+usa_roadsigns_1045.jpg,Night_speed_limit_45,0.92,232,160,411,345
+usa_roadsigns_1045.jpg,Tractor_farm_vehicle_crossing,0.9,858,518,1051,715
+usa_roadsigns_1045.jpg,Bicycles_and_pedestrians,0.89,15,38,213,232
+usa_roadsigns_1045.jpg,Detour,0.75,652,399,810,529
+usa_roadsigns_1045.jpg,Left_turn_only,0.53,434,277,604,441

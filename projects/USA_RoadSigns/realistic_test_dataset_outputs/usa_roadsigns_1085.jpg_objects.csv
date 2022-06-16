@@ -1,6 +1,5 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1085.jpg,Left_turn_or_straight,0.9,442,279,576,443
-usa_roadsigns_1085.jpg,Circular_intersection_warning,0.88,227,154,426,355
-usa_roadsigns_1085.jpg,Speed_limit_50,0.81,860,518,1023,720
-usa_roadsigns_1085.jpg,Truck_crossing_2,0.78,647,396,814,561
-usa_roadsigns_1085.jpg,Bike_lane_slippery_when_wet,0.49,16,36,210,232
+usa_roadsigns_1085.jpg,Cross_roads,0.87,15,38,210,235
+usa_roadsigns_1085.jpg,Truck_crossing_2,0.87,648,396,813,562
+usa_roadsigns_1085.jpg,Minimum_speed_limit_40,0.71,861,519,1023,721
+usa_roadsigns_1085.jpg,Pass_on_either_side,0.54,226,158,427,356

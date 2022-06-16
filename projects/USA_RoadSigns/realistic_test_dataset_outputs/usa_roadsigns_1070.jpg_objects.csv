@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1070.jpg,Speed_limit_80km,0.93,440,277,599,521
-usa_roadsigns_1070.jpg,No_left_or_u_turn,0.73,15,38,180,202
-usa_roadsigns_1070.jpg,Side_road_at_an_acute_angle,0.72,648,401,811,560
-usa_roadsigns_1070.jpg,Low_clearance,0.65,229,157,390,319
-usa_roadsigns_1070.jpg,School_bus_stop_ahead,0.64,860,517,1052,675
+usa_roadsigns_1070.jpg,Minimum_speed_limit_60km,0.77,440,278,600,521
+usa_roadsigns_1070.jpg,Side_road_at_an_acute_angle,0.75,649,398,811,559
+usa_roadsigns_1070.jpg,Detour,0.42,860,518,1048,675
+usa_roadsigns_1070.jpg,Low_clearance,0.42,228,157,391,319
+usa_roadsigns_1070.jpg,No_left_or_u_turn,0.42,19,39,181,199
