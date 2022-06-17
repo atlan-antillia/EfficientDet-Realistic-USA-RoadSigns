@@ -2,7 +2,7 @@
 Training and detection RoadSigns in US by EfficientDet
 
 <h2>
-EfficientDet USA RoadSigns 86classes (Updated: 2022/06/17)
+EfficientDet USA RoadSigns 86classes (Updated: 2022/06/18)
 </h2>
 
 This is a simple python example to train and detect RoadSigns in US based on 
@@ -86,40 +86,6 @@ Please run the following command to install python packages for this project.<br
 </pre>
 
 <br>
-
-<h3>2.3 Workarounds for Windows</h3>
-As you know or may not know, the efficientdet scripts of training a model and creating a saved_model do not 
-run well on Windows environment in case of tensorflow 2.8.0(probably after the version 2.5.0) as shown below:. 
-<pre>
-INFO:tensorflow:Saving checkpoints for 0 into ./models\model.ckpt.
-I0609 06:22:50.961521  3404 basic_session_run_hooks.py:634] Saving checkpoints for 0 into ./models\model.ckpt.
-2022-06-09 06:22:52.780440: W tensorflow/core/framework/op_kernel.cc:1745] OP_REQUIRES failed at save_restore_v2_ops.cc:110 :
- NOT_FOUND: Failed to create a NewWriteableFile: ./models\model.ckpt-0_temp\part-00000-of-00001.data-00000-of-00001.tempstate8184773265919876648 :
-</pre>
-
-The real problem seems to happen in the original <b> save_restore_v2_ops.cc</b>. The simple workarounds to the issues are 
-to modify the following tensorflow/python scripts in your virutalenv folder. 
-<pre>
-c:\py38-efficientdet\Lib\site-packages\tensorflow\python\training
- +- basic_session_run_hooks.py
- 
-634    logging.info("Saving checkpoints for %d into %s.", step, self._save_path)
-635    ### start workaround date="2022/06/10" os="Windows"
-636    temp_dir = self._save_path + "-" + str(step) + "_temp"
-637    os.makedirs(temp_dir, exist_ok=True)
-638    #### end workaround
-</pre>
-
-<pre>
-c:\py38-efficientdet\Lib\site-packages\tensorflow\python\saved_model
- +- builder_impl.py
-
-595    variables_path = saved_model_utils.get_variables_path(self._export_dir)
-596    ### start workaround date="2022/06/10" os="Windows" 
-597    temp_dir = self._export_dir + "/variables/variables_temp"
-598    os.makedirs(temp_dir, exist_ok=True)    
-599    ### end workaround
-</pre>
 
 <h3>3. Inspect tfrecord</h3>
  Move to ./projects/USA_RoadSigns directory, expand train/train.7z and valid/valid.7z, 
