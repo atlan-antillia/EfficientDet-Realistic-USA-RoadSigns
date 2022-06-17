@@ -138,11 +138,12 @@ python ../../TFRecordInspector.py ^
 This will generate annotated images with bboxes and labels from the tfrecord, and cout the number of annotated objects in it.<br>
 <br>
 <b>TFRecordInspecotr: annotated images in train.tfrecord</b><br>
-<img src="./asset/Ttfrecord_inspector_annotated_images.png">
+<img src="./asset/TFRecordInspector_train_annotated_images.png">
+
 <br>
 <br>
 <b>TFRecordInspecotr: objects_count train.tfrecord</b><br>
-<img src="./asset/tfrecord_inspector_objects_count.png">
+<img src="./asset/TFRecordInspector_train_objects_count.png">
 <br>
 This bar graph shows that the number of the objects.
 <br>
