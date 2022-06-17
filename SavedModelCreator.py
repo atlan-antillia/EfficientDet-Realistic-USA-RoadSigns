@@ -56,8 +56,10 @@ session = InteractiveSession(config=config)
 FLAGS = flags.FLAGS
 
 #2022/06/18 Workaround on Windows
-FLAGS.model_dir = FLAGS.model_dir.replace("/", "\\")
-FLAGS.saved_model_dir = FLAGS.saved_model_dir.replace("/", "\\")
+import platform
+if platform.system() == "Windows":
+  FLAGS.model_dir = FLAGS.model_dir.replace("/", "\\")
+  FLAGS.saved_model_dir = FLAGS.saved_model_dir.replace("/", "\\")
 
 #saved_model
 FLAGS.runmode = "saved_model"
