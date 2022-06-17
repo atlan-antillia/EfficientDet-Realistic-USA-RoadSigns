@@ -153,7 +153,9 @@ flags.DEFINE_integer('patience', 10,
 FLAGS = flags.FLAGS
 
 #2022/06/18 On Windows
-FLAGS.model_dir = FLAGS.model_dir.replace("/", "\\")
+import platform
+if platform.system() == "Windows":
+  FLAGS.model_dir = FLAGS.model_dir.replace("/", "\\")
 
 def main(_):
   if FLAGS.strategy == 'tpu':
