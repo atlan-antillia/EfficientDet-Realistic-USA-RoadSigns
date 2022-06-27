@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1043.jpg,School_advance,0.87,857,516,1050,713
-usa_roadsigns_1043.jpg,Railroad_crossing,0.86,16,36,209,233
-usa_roadsigns_1043.jpg,No_left_turn,0.81,228,159,423,351
-usa_roadsigns_1043.jpg,Night_speed_limit_70km,0.67,649,400,815,604
-usa_roadsigns_1043.jpg,Chevron_alignment,0.66,436,278,586,473
+usa_roadsigns_1043.jpg,School_advance,0.97,856,516,1052,713
+usa_roadsigns_1043.jpg,Railroad_crossing,0.96,18,35,210,231
+usa_roadsigns_1043.jpg,Chevron_alignment,0.95,439,277,587,474
+usa_roadsigns_1043.jpg,No_left_turn,0.95,229,159,422,353
+usa_roadsigns_1043.jpg,Night_speed_limit_70km,0.76,649,399,815,604

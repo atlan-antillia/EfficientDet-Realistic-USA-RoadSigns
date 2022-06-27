@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1003.jpg,Steep_grade_percentage,0.9,226,158,393,321
-usa_roadsigns_1003.jpg,Detour,0.84,443,279,602,410
-usa_roadsigns_1003.jpg,Right_turn_or_straight,0.79,648,399,813,595
-usa_roadsigns_1003.jpg,Go_on_slow,0.52,860,520,1018,717
+usa_roadsigns_1003.jpg,Detour,0.9,440,280,600,410
+usa_roadsigns_1003.jpg,No_u_turn,0.89,21,38,182,203
+usa_roadsigns_1003.jpg,Steep_grade_percentage,0.87,227,159,395,320
+usa_roadsigns_1003.jpg,Right_turn_or_straight,0.86,650,400,815,597
+usa_roadsigns_1003.jpg,Go_on_slow,0.78,862,519,1018,716

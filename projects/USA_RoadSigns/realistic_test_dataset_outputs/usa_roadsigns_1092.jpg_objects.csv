@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1092.jpg,School_advance,0.72,438,280,635,477
-usa_roadsigns_1092.jpg,Curve,0.72,17,37,183,202
-usa_roadsigns_1092.jpg,Narrow_bridge,0.6,228,159,423,355
-usa_roadsigns_1092.jpg,Speed_limit_80km,0.58,857,517,1020,681
-usa_roadsigns_1092.jpg,Merging_traffic,0.51,649,400,806,558
+usa_roadsigns_1092.jpg,Reverse_curve,0.92,227,157,425,355
+usa_roadsigns_1092.jpg,Pedestrian_crossing,0.87,18,38,183,203
+usa_roadsigns_1092.jpg,Hairpin_curve,0.82,438,276,635,475
+usa_roadsigns_1092.jpg,Y_roads,0.8,648,397,810,559
+usa_roadsigns_1092.jpg,Do_not_drive_on_tracks,0.63,857,519,1020,682

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1096.jpg,No_straight_through,0.75,649,399,812,560
-usa_roadsigns_1096.jpg,No_parking,0.71,228,161,393,322
-usa_roadsigns_1096.jpg,Merge,0.66,857,517,1052,716
-usa_roadsigns_1096.jpg,Railroad_crossing_ahead,0.53,434,277,607,443
-usa_roadsigns_1096.jpg,Pedestrian_crossing,0.42,14,37,181,201
+usa_roadsigns_1096.jpg,Railroad_crossing_ahead,0.95,438,277,605,442
+usa_roadsigns_1096.jpg,Hill_bicycle,0.89,18,38,184,200
+usa_roadsigns_1096.jpg,Hazardous_material_prohibited,0.88,229,160,391,319
+usa_roadsigns_1096.jpg,Merge,0.86,857,516,1054,715
+usa_roadsigns_1096.jpg,No_right_turn,0.67,648,399,814,562

@@ -1,5 +1,6 @@
 id, class, count
-1,Steep_grade_percentage,1
-2,Railroad_crossing_ahead,1
-3,Road_narrows,1
-4,Left_turn_or_straight,1
+1,Railroad_crossing_ahead,1
+2,Steep_grade_percentage,1
+3,Road_slippery_when_wet,1
+4,Straight_ahead_only,1
+5,Road_narrows,1

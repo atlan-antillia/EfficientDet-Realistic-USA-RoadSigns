@@ -1,6 +1,6 @@
 id, class, count
-1,Steep_grade,1
-2,T_roads,1
+1,Chevron_alignment,1
+2,Metric_low_clearance,1
 3,Pass_road,1
-4,Chevron_alignment,1
-5,Metric_low_clearance,1
+4,Steep_grade,1
+5,T_roads,1

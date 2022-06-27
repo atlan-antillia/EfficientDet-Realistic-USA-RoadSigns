@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1069.jpg,Truck_crossing,0.78,856,518,1021,680
-usa_roadsigns_1069.jpg,Left_turn_only,0.78,20,38,151,200
-usa_roadsigns_1069.jpg,Merge,0.61,439,279,602,442
-usa_roadsigns_1069.jpg,Narrow_bridge,0.58,228,159,393,322
-usa_roadsigns_1069.jpg,Hill_bicycle,0.45,648,396,809,559
+usa_roadsigns_1069.jpg,Left_turn_only,0.81,20,37,152,199
+usa_roadsigns_1069.jpg,Merge,0.73,439,279,601,440
+usa_roadsigns_1069.jpg,Hill_bicycle,0.71,650,397,811,560
+usa_roadsigns_1069.jpg,Narrow_bridge,0.62,228,159,391,320
+usa_roadsigns_1069.jpg,Road_narrows,0.46,858,517,1019,680

@@ -1,6 +1,6 @@
 id, class, count
-1,School_advance,1
-2,Curve,1
-3,Narrow_bridge,1
-4,Speed_limit_80km,1
-5,Merging_traffic,1
+1,Reverse_curve,1
+2,Pedestrian_crossing,1
+3,Hairpin_curve,1
+4,Y_roads,1
+5,Do_not_drive_on_tracks,1

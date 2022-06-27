@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1027.jpg,Night_speed_limit_45,0.92,650,399,866,620
-usa_roadsigns_1027.jpg,End_detour,0.81,856,518,1050,662
-usa_roadsigns_1027.jpg,Railroad_crossing_ahead,0.63,435,275,634,475
-usa_roadsigns_1027.jpg,Side_road_at_an_acute_angle,0.58,13,37,183,201
-usa_roadsigns_1027.jpg,Merging_traffic,0.51,229,159,389,318
+usa_roadsigns_1027.jpg,Railroad_crossing_ahead,0.97,436,275,633,474
+usa_roadsigns_1027.jpg,End_detour,0.91,864,518,1051,661
+usa_roadsigns_1027.jpg,Night_speed_limit_45,0.82,651,398,865,620
+usa_roadsigns_1027.jpg,Y_roads,0.75,229,158,393,321
+usa_roadsigns_1027.jpg,Y_roads,0.63,16,38,185,201

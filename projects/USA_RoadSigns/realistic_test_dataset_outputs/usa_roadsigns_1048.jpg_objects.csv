@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1048.jpg,Go_on_slow,0.88,18,37,154,200
-usa_roadsigns_1048.jpg,School_bus_stop_ahead,0.83,647,397,807,558
-usa_roadsigns_1048.jpg,Road_closed_ahead,0.63,857,516,1058,716
-usa_roadsigns_1048.jpg,Narrow_bridge,0.48,229,157,425,356
+usa_roadsigns_1048.jpg,Hill_bicycle,0.96,857,517,1054,717
+usa_roadsigns_1048.jpg,Straight_ahead_only,0.92,19,38,153,198
+usa_roadsigns_1048.jpg,Narrow_bridge,0.91,228,158,422,355
+usa_roadsigns_1048.jpg,School_bus_stop_ahead,0.89,649,398,809,560
+usa_roadsigns_1048.jpg,Dip,0.79,439,279,601,440

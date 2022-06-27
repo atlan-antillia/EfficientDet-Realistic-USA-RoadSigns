@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1059.jpg,Do_not_enter,0.93,437,275,638,477
-usa_roadsigns_1059.jpg,Stop,0.9,854,520,1019,681
-usa_roadsigns_1059.jpg,Bike_lane,0.69,230,158,391,322
-usa_roadsigns_1059.jpg,Added_lane_from_entering_roadway,0.58,15,38,213,235
+usa_roadsigns_1059.jpg,Stop,0.95,858,520,1020,683
+usa_roadsigns_1059.jpg,Do_not_enter,0.94,436,276,636,476
+usa_roadsigns_1059.jpg,Railroad_crossing,0.86,231,160,393,320
+usa_roadsigns_1059.jpg,Hairpin_curve,0.58,16,39,210,234
+usa_roadsigns_1059.jpg,Straight_ahead_only,0.54,649,401,787,560

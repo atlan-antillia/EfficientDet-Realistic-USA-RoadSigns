@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1029.jpg,T_roads,0.81,230,161,390,321
-usa_roadsigns_1029.jpg,Sharp_turn,0.79,435,277,604,443
-usa_roadsigns_1029.jpg,Bike_lane_slippery_when_wet,0.73,15,37,212,233
-usa_roadsigns_1029.jpg,No_left_turn,0.61,649,400,842,590
-usa_roadsigns_1029.jpg,No_left_turn,0.48,857,519,1020,680
+usa_roadsigns_1029.jpg,Rough_road,0.98,17,37,210,231
+usa_roadsigns_1029.jpg,Sharp_turn,0.94,439,279,602,442
+usa_roadsigns_1029.jpg,No_left_or_u_turn,0.85,649,399,842,593
+usa_roadsigns_1029.jpg,T_roads,0.83,228,159,389,320
+usa_roadsigns_1029.jpg,No_left_or_u_turn,0.78,859,519,1020,681

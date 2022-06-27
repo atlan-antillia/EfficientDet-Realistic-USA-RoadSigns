@@ -1,7 +1,8 @@
+rem 1_train.bat 2022/06/27
 python ../../ModelTrainer.py ^
   --mode=train_and_eval ^
-  --train_file_pattern=./train/train.tfrecord  ^
-  --val_file_pattern=./valid/valid.tfrecord ^
+  --train_file_pattern=./train/*.tfrecord  ^
+  --val_file_pattern=./valid/*.tfrecord ^
   --model_name=efficientdet-d0 ^
   --hparams="input_rand_hflip=False,image_size=512,num_classes=86,label_map=./label_map.yaml" ^
   --model_dir=./models ^
@@ -12,6 +13,6 @@ python ../../ModelTrainer.py ^
   --early_stopping=map ^
   --patience=10 ^
   --eval_batch_size=4 ^
-  --eval_samples=600  ^
-  --num_examples_per_epoch=1000 ^
+  --eval_samples=1000  ^
+  --num_examples_per_epoch=2000 ^
   --num_epochs=100  

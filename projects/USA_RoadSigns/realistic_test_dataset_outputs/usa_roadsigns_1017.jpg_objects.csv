@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1017.jpg,Keep_right,0.96,857,520,1015,714
-usa_roadsigns_1017.jpg,Added_lane,0.83,17,38,183,201
-usa_roadsigns_1017.jpg,Road_closed,0.81,439,278,599,379
-usa_roadsigns_1017.jpg,Tractor_farm_vehicle_crossing,0.59,649,398,844,594
+usa_roadsigns_1017.jpg,Yield,0.98,230,158,391,303
+usa_roadsigns_1017.jpg,Road_closed,0.97,440,279,599,382
+usa_roadsigns_1017.jpg,Reverse_turn,0.97,650,397,842,592
+usa_roadsigns_1017.jpg,Added_lane,0.9,18,39,180,199
+usa_roadsigns_1017.jpg,Keep_right,0.72,861,519,1013,714

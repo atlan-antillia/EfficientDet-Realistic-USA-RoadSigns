@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1076.jpg,No_straight_through,0.92,14,39,213,232
-usa_roadsigns_1076.jpg,Speed_limit_80km,0.84,229,158,365,361
-usa_roadsigns_1076.jpg,School_bus_stop_ahead,0.74,648,397,843,594
-usa_roadsigns_1076.jpg,No_parking,0.73,860,522,1018,678
-usa_roadsigns_1076.jpg,Merging_traffic,0.42,440,280,598,441
+usa_roadsigns_1076.jpg,No_straight_through,0.97,16,39,211,232
+usa_roadsigns_1076.jpg,Dip,0.92,649,396,842,593
+usa_roadsigns_1076.jpg,Speed_limit_80km,0.89,231,161,367,363
+usa_roadsigns_1076.jpg,No_pedestrian_crossing,0.86,859,518,1019,679
+usa_roadsigns_1076.jpg,Y_roads,0.77,439,279,599,441

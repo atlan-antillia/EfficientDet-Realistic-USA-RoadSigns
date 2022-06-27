@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1095.jpg,Added_lane,0.68,229,156,423,355
-usa_roadsigns_1095.jpg,Road_closed,0.66,15,37,177,139
-usa_roadsigns_1095.jpg,Metric_low_clearance,0.58,441,278,600,396
-usa_roadsigns_1095.jpg,Truck_crossing,0.41,647,396,810,560
+usa_roadsigns_1095.jpg,Bike_lane,0.98,441,278,602,399
+usa_roadsigns_1095.jpg,Added_lane,0.96,229,155,422,351
+usa_roadsigns_1095.jpg,Road_closed,0.95,18,38,177,140
+usa_roadsigns_1095.jpg,Curve,0.84,649,399,810,559
+usa_roadsigns_1095.jpg,Left_turn_or_straight,0.63,857,519,998,683

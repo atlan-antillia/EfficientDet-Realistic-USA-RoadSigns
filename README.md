@@ -2,7 +2,7 @@
 Training and detection RoadSigns in US by EfficientDet
 
 <h2>
-EfficientDet USA RoadSigns 86classes (Updated: 2022/06/18)
+EfficientDet USA RoadSigns 86classes (Updated: 2022/06/28)
 </h2>
 
 This is a simple python example to train and detect RoadSigns in US based on 
@@ -18,6 +18,10 @@ Modified to use the latest <a href="https://github.com/google/automl/tree/master
 Modified to use the bat files in ./projects/USA_RoadSigns/.(2022/06/14)<br>
 </li>
 
+<li>
+Modified to use mixed_size tfrecord dataset.(2022/06/28)<br>
+</li>
+<br>
 <h2>
 1. Installing tensorflow on Windows11
 </h2>
@@ -78,6 +82,22 @@ EfficientDet-USA-RoadSigns-86classes
         ├─train
         └─valid
 </pre>
+The train and valid folders contain following files:<br>
+<pre>
+ +--train
+ |   +-- mixed_size_train.tfrecord
+ |   +-- train.7z    
+ +--valid
+     +-- mixed_size_valid.tfrecord
+     +-- valid.7z    
+
+</pre>
+We have newly added the tfrecord files, <b>mixed_size_train.tfrecord</b> and <b>mixed_size_valid.tfrecord</b>,
+to improve inference accuracy to the realistic_test_dataset.<br>
+
+If you would like to retrain roadsigns efficientdet model by yourself, you have to expand <b>train.7z</b> in train folder and <b>valid.7z</b> in valid folder
+ to get the original tfrecord dataset.<br> 
+
 <br>
 <h3>2.2 Install python packages</h3>
 
@@ -167,6 +187,7 @@ Move to the ./projects/USA_RoadSigns directory, and run the following bat file t
 </pre> 
 , which is the following:
 <pre>
+rem 1_train.bat 2022/06/27
 python ../../ModelTrainer.py ^
   --mode=train_and_eval ^
   --train_file_pattern=./train/train.tfrecord  ^
@@ -181,8 +202,8 @@ python ../../ModelTrainer.py ^
   --early_stopping=map ^
   --patience=10 ^
   --eval_batch_size=4 ^
-  --eval_samples=600  ^
-  --num_examples_per_epoch=1000 ^
+  --eval_samples=1000  ^
+  --num_examples_per_epoch=2000 ^
   --num_epochs=100   
 
 </pre>
@@ -242,11 +263,11 @@ python ../../ModelTrainer.py ^
 </tr>
 <tr>
 <td>
---eval_samples</td><td>600</td>
+--eval_samples</td><td>1000</td>
 </tr>
 <tr>
 <td>
---num_examples_per_epoch</td><td>1000</td>
+--num_examples_per_epoch</td><td>2000</td>
 </tr>
 <tr>
 <td>
@@ -345,22 +366,22 @@ python ../../ModelTrainer.py ^
 86: 'Y_roads'
 </pre>
 <br>
-<b>Training console output at epoch 100</b>
+<b>Training console output at epoch 62</b>
 <br>
-<img src="./asset/coco_metrics_console_at_epoch100_tf2.8.0.png" width="1024" height="auto">
+<img src="./asset/coco_metrics_console_at_epoch62_tf2.8.0_0627.png" width="1024" height="auto">
 <br>
 <br>
 <b><a href="./projects/USA_RoadSigns/eval/coco_metrics.csv">COCO meticss</a></b><br>
-<img src="./asset/coco_metrics_at_epoch100_tf2.8.0.png" width="1024" height="auto">
+<img src="./asset/coco_metrics_at_epoch62_tf2.8.0_0627.png" width="1024" height="auto">
 <br>
 <br>
 <b><a href="./projects/USA_RoadSigns/eval/train_losses.csv">Train losses</a></b><br>
-<img src="./asset/train_losses_at_epoch100_tf2.8.0.png" width="1024" height="auto">
+<img src="./asset/train_losses_at_epoch62_tf2.8.0_0627.png" width="1024" height="auto">
 <br>
 <br>
 
 <b><a href="./projects/USA_RoadSigns/eval/coco_ap_per_class.csv">COCO ap per class</a></b><br>
-<img src="./asset/coco_ap_per_class_at_epoch100_tf2.8.0.png" width="1024" height="auto">
+<img src="./asset/coco_ap_per_class_at_epoch62_tf2.8.0_0627.png" width="1024" height="auto">
 <br>
 <br>
 <h3>
@@ -501,5 +522,5 @@ The 3_inference.bat computes also the COCO metrics(f, map, mar) to the <b>realis
 <a href="./projects/USA_RoadSigns/realistic_test_dataset_outputs/prediction_f_map_mar.csv">prediction_f_map_mar.csv</a>
 
 <br>
-<img src="./asset/coco_metrics_console_test_dataset_at_epoch100_tf2.8.0.png" width="740" height="auto"><br>
+<img src="./asset/coco_metrics_console_test_dataset_at_epoch62_tf2.8.0_0627.png" width="740" height="auto"><br>
 

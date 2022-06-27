@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1016.jpg,Speed_limit_80km,0.94,647,398,808,638
-usa_roadsigns_1016.jpg,Deer_crossing,0.56,15,40,212,233
-usa_roadsigns_1016.jpg,Low_clearance,0.54,436,278,603,442
-usa_roadsigns_1016.jpg,Sharp_turn,0.48,857,516,1021,682
+usa_roadsigns_1016.jpg,Speed_limit_80km,0.98,648,398,808,640
+usa_roadsigns_1016.jpg,Deer_crossing,0.89,228,158,391,319
+usa_roadsigns_1016.jpg,Low_clearance,0.87,438,277,603,440
+usa_roadsigns_1016.jpg,Y_roads,0.81,16,39,213,233
+usa_roadsigns_1016.jpg,Reverse_turn,0.73,859,515,1023,682

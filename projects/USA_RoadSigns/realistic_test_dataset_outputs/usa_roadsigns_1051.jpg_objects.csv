@@ -1,4 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1051.jpg,Do_not_enter,0.87,858,516,1023,684
-usa_roadsigns_1051.jpg,Merge,0.78,439,278,636,476
-usa_roadsigns_1051.jpg,Merge,0.63,230,159,422,352
+usa_roadsigns_1051.jpg,Merge,0.92,439,278,637,476
+usa_roadsigns_1051.jpg,No_left_or_u_turn,0.87,16,39,184,205
+usa_roadsigns_1051.jpg,Do_not_enter,0.81,858,518,1021,684
+usa_roadsigns_1051.jpg,Road_narrows,0.73,229,157,421,350
+usa_roadsigns_1051.jpg,Dip,0.7,648,398,844,596

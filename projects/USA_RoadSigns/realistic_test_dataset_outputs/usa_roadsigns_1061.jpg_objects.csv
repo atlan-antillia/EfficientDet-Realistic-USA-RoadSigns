@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1061.jpg,Two_way_traffic,0.87,647,395,810,560
-usa_roadsigns_1061.jpg,Minimum_speed_limit_40,0.8,438,279,634,520
-usa_roadsigns_1061.jpg,Side_road_at_an_acute_angle,0.78,857,520,1021,679
-usa_roadsigns_1061.jpg,Left_turn_only,0.76,229,162,389,351
-usa_roadsigns_1061.jpg,Side_road_at_an_acute_angle,0.62,14,38,212,233
+usa_roadsigns_1061.jpg,Side_road_at_an_acute_angle,0.97,17,38,210,230
+usa_roadsigns_1061.jpg,Minimum_speed_limit_40,0.91,439,279,636,521
+usa_roadsigns_1061.jpg,Two_way_traffic,0.89,652,397,812,559
+usa_roadsigns_1061.jpg,Side_road_at_an_acute_angle,0.88,860,519,1018,678
+usa_roadsigns_1061.jpg,Left_turn_only,0.67,232,159,388,347

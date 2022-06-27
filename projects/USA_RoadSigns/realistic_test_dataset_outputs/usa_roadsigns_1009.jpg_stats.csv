@@ -1,5 +1,6 @@
 id, class, count
 1,Steep_grade_percentage,1
-2,Minimum_speed_limit_40,1
-3,No_bicycles,1
-4,Road_closed_ahead,1
+2,Road_closed_ahead,1
+3,Truck_speed_limit_40,1
+4,Added_lane_from_entering_roadway,1
+5,No_bicycles,1

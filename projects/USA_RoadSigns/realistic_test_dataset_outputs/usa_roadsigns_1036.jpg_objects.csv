@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1036.jpg,School_bus_stop_ahead,0.92,229,158,420,354
-usa_roadsigns_1036.jpg,Pass_on_either_side,0.62,647,396,813,561
-usa_roadsigns_1036.jpg,Metric_low_clearance,0.51,437,280,602,442
-usa_roadsigns_1036.jpg,Merge,0.46,856,518,1024,683
+usa_roadsigns_1036.jpg,Yield,0.95,14,37,178,184
+usa_roadsigns_1036.jpg,Metric_low_clearance,0.92,438,278,602,441
+usa_roadsigns_1036.jpg,Bump,0.86,857,517,1022,683
+usa_roadsigns_1036.jpg,School_bus_stop_ahead,0.84,229,158,423,354
+usa_roadsigns_1036.jpg,Pass_on_either_side,0.83,647,400,813,563

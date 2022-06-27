@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1077.jpg,Path_narrows,0.84,229,157,422,353
-usa_roadsigns_1077.jpg,Chevron_alignment,0.79,436,279,590,474
-usa_roadsigns_1077.jpg,Pedestrian_crossing,0.62,14,36,212,232
-usa_roadsigns_1077.jpg,School_bus_stop_ahead,0.58,858,518,1022,682
+usa_roadsigns_1077.jpg,Yield,0.98,651,397,810,544
+usa_roadsigns_1077.jpg,Chevron_alignment,0.95,434,277,587,478
+usa_roadsigns_1077.jpg,Narrow_bridge,0.91,19,37,211,232
+usa_roadsigns_1077.jpg,Narrow_bridge,0.59,228,158,420,352
+usa_roadsigns_1077.jpg,Dip,0.43,859,519,1021,683

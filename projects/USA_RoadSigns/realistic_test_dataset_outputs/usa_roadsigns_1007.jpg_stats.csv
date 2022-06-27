@@ -1,5 +1,6 @@
 id, class, count
 1,Stop,1
-2,Bike_lane,1
-3,Go_on_slow,2
-4,School_advance,1
+2,School_advance,1
+3,Bike_lane,1
+4,No_turns,1
+5,Go_on_slow,1

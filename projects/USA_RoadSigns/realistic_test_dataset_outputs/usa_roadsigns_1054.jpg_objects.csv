@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1054.jpg,School_bus_stop_ahead,0.94,228,158,423,357
-usa_roadsigns_1054.jpg,School_bus_stop_ahead,0.81,648,395,808,559
-usa_roadsigns_1054.jpg,Deer_crossing,0.69,14,38,214,235
-usa_roadsigns_1054.jpg,Truck_crossing,0.64,437,279,602,442
+usa_roadsigns_1054.jpg,School_bus_stop_ahead,0.9,230,158,425,356
+usa_roadsigns_1054.jpg,Added_lane_from_entering_roadway,0.88,859,518,1024,683
+usa_roadsigns_1054.jpg,Reverse_curve,0.88,18,38,214,236
+usa_roadsigns_1054.jpg,School_bus_stop_ahead,0.84,648,396,810,560
+usa_roadsigns_1054.jpg,Narrow_bridge,0.52,437,279,599,440

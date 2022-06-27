@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1079.jpg,Truck_speed_limit_40,0.93,650,398,863,616
-usa_roadsigns_1079.jpg,Two_direction,0.8,20,36,210,134
-usa_roadsigns_1079.jpg,School_bus_stop_ahead,0.64,436,278,635,476
-usa_roadsigns_1079.jpg,Hairpin_curve,0.6,228,159,424,355
+usa_roadsigns_1079.jpg,Two_direction,0.97,22,38,208,134
+usa_roadsigns_1079.jpg,Pedestrian_crossing,0.95,860,517,1055,718
+usa_roadsigns_1079.jpg,Truck_speed_limit_40,0.92,652,400,862,617
+usa_roadsigns_1079.jpg,Hairpin_curve,0.91,227,156,424,353
+usa_roadsigns_1079.jpg,Path_narrows,0.8,438,278,634,475

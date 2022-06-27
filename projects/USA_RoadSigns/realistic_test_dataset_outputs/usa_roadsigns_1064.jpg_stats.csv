@@ -1,5 +1,5 @@
 id, class, count
 1,Bicycles_and_pedestrians,1
-2,No_straight_through,2
-3,School_advance,1
-4,Detour,1
+2,No_right_turn,2
+3,Detour,1
+4,Hairpin_curve,1

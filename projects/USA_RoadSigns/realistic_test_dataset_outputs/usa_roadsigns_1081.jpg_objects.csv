@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1081.jpg,Bike_lane_slippery_when_wet,0.73,18,38,181,200
-usa_roadsigns_1081.jpg,School_bus_stop_ahead,0.71,859,518,1023,683
-usa_roadsigns_1081.jpg,Reverse_curve,0.64,229,158,423,352
-usa_roadsigns_1081.jpg,Right_turn_only,0.61,440,278,598,469
+usa_roadsigns_1081.jpg,School_advance,0.94,228,158,421,350
+usa_roadsigns_1081.jpg,Right_turn_only,0.85,441,279,598,467
+usa_roadsigns_1081.jpg,Road_slippery_when_wet,0.85,18,39,180,200
+usa_roadsigns_1081.jpg,Road_slippery_when_wet,0.78,648,399,813,563
+usa_roadsigns_1081.jpg,Dip,0.61,860,519,1021,682

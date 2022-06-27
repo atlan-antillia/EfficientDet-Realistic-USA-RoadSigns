@@ -1,7 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1098.jpg,Speed_limit_80km,0.92,863,520,996,723
-usa_roadsigns_1098.jpg,Speed_limit_80km,0.92,649,400,781,600
-usa_roadsigns_1098.jpg,Right_turn_or_straight,0.77,8,372,224,686
-usa_roadsigns_1098.jpg,Deer_crossing,0.63,14,37,215,236
-usa_roadsigns_1098.jpg,Merge,0.5,230,159,424,352
-usa_roadsigns_1098.jpg,Side_road_at_a_perpendicular_angle,0.44,439,276,602,440
+usa_roadsigns_1098.jpg,Merging_traffic,0.96,19,37,216,235
+usa_roadsigns_1098.jpg,Speed_limit_80km,0.91,862,520,998,723
+usa_roadsigns_1098.jpg,Narrow_bridge,0.9,230,158,422,352
+usa_roadsigns_1098.jpg,Speed_limit_80km,0.82,647,399,782,603
+usa_roadsigns_1098.jpg,Cross_roads,0.8,439,278,599,439

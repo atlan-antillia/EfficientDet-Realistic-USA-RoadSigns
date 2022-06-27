@@ -1,5 +1,6 @@
 id, class, count
-1,Added_lane,1
-2,Truck_crossing,2
+1,Y_roads,1
+2,Added_lane,1
 3,Hairpin_curve,1
-4,Merging_traffic,1
+4,Rough_road,1
+5,Narrow_bridge,1

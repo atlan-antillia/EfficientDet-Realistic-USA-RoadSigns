@@ -1,5 +1,5 @@
 id, class, count
 1,Railroad_crossing,1
-2,No_straight_through,1
-3,Pedestrian_crossing,1
-4,Merging_traffic,1
+2,Rough_road,2
+3,No_straight_through,1
+4,Reverse_curve,1

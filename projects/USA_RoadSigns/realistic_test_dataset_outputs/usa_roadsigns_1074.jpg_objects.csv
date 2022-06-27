@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1074.jpg,Two_direction,0.93,230,160,388,241
-usa_roadsigns_1074.jpg,No_straight_through,0.87,857,519,1054,715
-usa_roadsigns_1074.jpg,Chevron_alignment,0.57,646,397,796,591
-usa_roadsigns_1074.jpg,Keep_left,0.46,17,38,181,200
+usa_roadsigns_1074.jpg,Two_direction,0.97,227,158,388,241
+usa_roadsigns_1074.jpg,No_straight_through,0.95,859,519,1056,716
+usa_roadsigns_1074.jpg,Chevron_alignment,0.93,645,397,793,596
+usa_roadsigns_1074.jpg,Hazardous_material_prohibited,0.89,21,38,178,199
+usa_roadsigns_1074.jpg,Added_lane_from_entering_roadway,0.84,440,278,598,441

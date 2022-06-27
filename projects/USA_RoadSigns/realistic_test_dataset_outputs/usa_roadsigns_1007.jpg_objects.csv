@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1007.jpg,Stop,0.97,437,279,631,474
-usa_roadsigns_1007.jpg,Bike_lane,0.86,229,159,392,281
-usa_roadsigns_1007.jpg,Go_on_slow,0.83,16,39,183,202
-usa_roadsigns_1007.jpg,School_advance,0.76,856,516,1052,713
-usa_roadsigns_1007.jpg,Go_on_slow,0.69,650,401,809,597
+usa_roadsigns_1007.jpg,Stop,0.98,438,278,631,474
+usa_roadsigns_1007.jpg,School_advance,0.97,857,516,1051,713
+usa_roadsigns_1007.jpg,Bike_lane,0.96,229,158,394,282
+usa_roadsigns_1007.jpg,No_turns,0.95,16,38,182,203
+usa_roadsigns_1007.jpg,Go_on_slow,0.82,651,402,808,596

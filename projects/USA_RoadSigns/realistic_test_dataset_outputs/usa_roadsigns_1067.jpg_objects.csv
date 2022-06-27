@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1067.jpg,Chevron_alignment,0.81,227,160,353,322
-usa_roadsigns_1067.jpg,Winding_road,0.6,858,518,1019,680
-usa_roadsigns_1067.jpg,School_bus_stop_ahead,0.54,651,397,843,592
-usa_roadsigns_1067.jpg,No_large_trucks,0.41,15,38,212,234
+usa_roadsigns_1067.jpg,No_large_trucks,0.98,17,38,214,235
+usa_roadsigns_1067.jpg,Chevron_alignment,0.98,228,160,351,322
+usa_roadsigns_1067.jpg,Road_slippery_when_wet,0.95,651,397,842,593
+usa_roadsigns_1067.jpg,Yield,0.94,438,276,633,450
+usa_roadsigns_1067.jpg,Winding_road,0.73,859,518,1018,680

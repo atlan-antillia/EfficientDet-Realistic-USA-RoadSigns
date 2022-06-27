@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1063.jpg,No_straight_through,0.86,440,280,634,473
-usa_roadsigns_1063.jpg,Minimum_speed_limit_60km,0.75,228,160,388,397
-usa_roadsigns_1063.jpg,Left_turn_or_straight,0.71,647,399,810,590
-usa_roadsigns_1063.jpg,Minimum_speed_limit_40,0.7,861,520,1051,725
+usa_roadsigns_1063.jpg,No_straight_through,0.97,440,279,634,472
+usa_roadsigns_1063.jpg,Minimum_speed_limit_60km,0.91,227,161,387,398
+usa_roadsigns_1063.jpg,Dip,0.89,18,38,183,201
+usa_roadsigns_1063.jpg,Straight_ahead_only,0.76,649,399,811,594
+usa_roadsigns_1063.jpg,Minimum_speed_limit_40,0.65,861,518,1051,727

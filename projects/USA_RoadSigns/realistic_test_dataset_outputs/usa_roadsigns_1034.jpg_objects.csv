@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1034.jpg,Truck_crossing,0.94,440,277,636,477
-usa_roadsigns_1034.jpg,Go_on_slow,0.91,17,42,209,280
-usa_roadsigns_1034.jpg,Truck_speed_limit_40,0.8,230,159,390,261
-usa_roadsigns_1034.jpg,Road_closed_ahead,0.78,859,517,1022,683
-usa_roadsigns_1034.jpg,Curve,0.6,650,399,844,595
+usa_roadsigns_1034.jpg,Minimum_speed_limit_40,0.95,18,39,209,278
+usa_roadsigns_1034.jpg,Curve,0.95,651,397,843,596
+usa_roadsigns_1034.jpg,Road_closed,0.95,229,159,390,261
+usa_roadsigns_1034.jpg,Road_closed_ahead,0.85,859,519,1021,682
+usa_roadsigns_1034.jpg,Truck_crossing,0.67,439,277,636,475

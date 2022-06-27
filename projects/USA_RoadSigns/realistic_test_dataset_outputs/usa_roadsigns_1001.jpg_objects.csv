@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1001.jpg,Go_on_slow,0.93,17,37,151,201
-usa_roadsigns_1001.jpg,Side_road_at_an_acute_angle,0.77,650,398,811,561
-usa_roadsigns_1001.jpg,Minimum_speed_limit_40,0.72,439,277,653,497
-usa_roadsigns_1001.jpg,Railroad_crossing,0.69,858,518,1022,680
-usa_roadsigns_1001.jpg,Low_clearance,0.61,227,156,425,356
+usa_roadsigns_1001.jpg,Truck_speed_limit_40,0.96,442,278,654,499
+usa_roadsigns_1001.jpg,Low_clearance,0.95,228,156,424,353
+usa_roadsigns_1001.jpg,Go_on_slow,0.92,17,38,151,201
+usa_roadsigns_1001.jpg,Side_road_at_an_acute_angle,0.91,651,399,811,559
+usa_roadsigns_1001.jpg,Railroad_crossing,0.88,858,519,1020,680

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1015.jpg,Steep_grade,0.81,648,398,810,560
-usa_roadsigns_1015.jpg,Speed_limit_80km,0.77,19,36,151,239
-usa_roadsigns_1015.jpg,Hill_bicycle,0.65,226,158,394,322
-usa_roadsigns_1015.jpg,Truck_rollover_warning,0.6,857,516,1019,681
-usa_roadsigns_1015.jpg,Side_road_at_a_perpendicular_angle,0.53,441,278,634,474
+usa_roadsigns_1015.jpg,Cross_roads,0.97,439,278,634,472
+usa_roadsigns_1015.jpg,Speed_limit_80km,0.89,19,39,150,238
+usa_roadsigns_1015.jpg,Hill_bicycle,0.8,229,158,393,322
+usa_roadsigns_1015.jpg,Steep_grade,0.69,648,398,812,561
+usa_roadsigns_1015.jpg,Winding_road,0.68,858,517,1020,679

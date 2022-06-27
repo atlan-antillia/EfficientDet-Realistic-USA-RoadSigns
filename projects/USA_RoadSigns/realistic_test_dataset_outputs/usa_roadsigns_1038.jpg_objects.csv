@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1038.jpg,No_left_turn,0.67,647,399,843,593
-usa_roadsigns_1038.jpg,Steep_grade,0.6,436,276,605,441
-usa_roadsigns_1038.jpg,Bike_lane_slippery_when_wet,0.58,227,157,423,356
-usa_roadsigns_1038.jpg,Right_turn_or_straight,0.58,857,518,1022,718
-usa_roadsigns_1038.jpg,Deer_crossing,0.57,15,38,214,236
+usa_roadsigns_1038.jpg,Side_road_at_an_acute_angle,0.96,18,38,215,234
+usa_roadsigns_1038.jpg,Right_turn_or_straight,0.92,863,518,1020,716
+usa_roadsigns_1038.jpg,Path_narrows,0.87,227,157,424,357
+usa_roadsigns_1038.jpg,No_left_or_u_turn,0.84,648,399,842,598
+usa_roadsigns_1038.jpg,Circular_intersection_warning,0.83,438,278,603,443

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1088.jpg,Stop,0.92,439,280,601,444
-usa_roadsigns_1088.jpg,Tractor_farm_vehicle_crossing,0.75,228,160,423,354
-usa_roadsigns_1088.jpg,Go_on_slow,0.67,649,401,786,561
-usa_roadsigns_1088.jpg,Railroad_crossing,0.65,857,515,1021,682
-usa_roadsigns_1088.jpg,Deer_crossing,0.61,14,40,212,235
+usa_roadsigns_1088.jpg,Merge,0.93,17,39,215,236
+usa_roadsigns_1088.jpg,Railroad_crossing,0.91,857,517,1019,681
+usa_roadsigns_1088.jpg,Straight_ahead_only,0.9,648,400,786,562
+usa_roadsigns_1088.jpg,Stop,0.89,436,279,603,444
+usa_roadsigns_1088.jpg,Winding_road,0.8,231,158,425,354

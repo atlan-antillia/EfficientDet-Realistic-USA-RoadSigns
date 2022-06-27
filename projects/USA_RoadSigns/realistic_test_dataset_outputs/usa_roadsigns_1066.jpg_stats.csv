@@ -1,6 +1,6 @@
 id, class, count
 1,Reserved_parking_wheelchair,1
 2,Keep_right,1
-3,Truck_crossing,1
-4,Right_turn_or_straight,1
-5,Go_on_slow,1
+3,Right_turn_or_straight,1
+4,Go_on_slow,1
+5,Road_narrows,1

@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1083.jpg,Speed_limit_80km,0.9,439,278,599,520
-usa_roadsigns_1083.jpg,Road_closed,0.87,860,517,1051,638
-usa_roadsigns_1083.jpg,Parking_with_time_restrictions,0.87,648,399,759,561
-usa_roadsigns_1083.jpg,Reverse_curve,0.58,227,161,392,322
+usa_roadsigns_1083.jpg,Speed_limit_80km,0.97,440,279,600,520
+usa_roadsigns_1083.jpg,Parking_with_time_restrictions,0.96,647,398,759,560
+usa_roadsigns_1083.jpg,School_advance,0.92,229,161,393,321
+usa_roadsigns_1083.jpg,Low_clearance,0.9,19,37,180,199
+usa_roadsigns_1083.jpg,Road_closed,0.87,860,518,1052,638

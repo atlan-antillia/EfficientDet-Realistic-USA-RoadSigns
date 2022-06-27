@@ -1,7 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1008.jpg,Truck_crossing,0.82,857,511,1019,682
-usa_roadsigns_1008.jpg,Two_way_traffic,0.77,649,398,845,599
-usa_roadsigns_1008.jpg,Right_turn_only,0.75,441,278,599,469
-usa_roadsigns_1008.jpg,Right_turn_only,0.67,19,35,180,232
-usa_roadsigns_1008.jpg,Tractor_farm_vehicle_crossing,0.55,229,158,392,323
-usa_roadsigns_1008.jpg,Right_turn_only,0.52,10,358,227,658
+usa_roadsigns_1008.jpg,Deer_crossing,0.94,649,396,844,596
+usa_roadsigns_1008.jpg,Right_turn_only,0.92,19,38,182,230
+usa_roadsigns_1008.jpg,Right_turn_only,0.89,440,280,599,468
+usa_roadsigns_1008.jpg,Tractor_farm_vehicle_crossing,0.83,227,159,391,324
+usa_roadsigns_1008.jpg,Truck_crossing,0.62,860,514,1019,681

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1090.jpg,Parking_with_time_restrictions,0.94,17,38,146,228
-usa_roadsigns_1090.jpg,Railroad_crossing,0.91,438,278,633,474
-usa_roadsigns_1090.jpg,Speed_limit_80km,0.9,858,519,1018,723
-usa_roadsigns_1090.jpg,No_straight_through,0.78,650,400,810,560
-usa_roadsigns_1090.jpg,Steep_grade,0.62,229,159,394,323
+usa_roadsigns_1090.jpg,Railroad_crossing,0.98,441,278,634,474
+usa_roadsigns_1090.jpg,Parking_with_time_restrictions,0.95,19,35,148,228
+usa_roadsigns_1090.jpg,Speed_limit_80km,0.95,861,519,1021,725
+usa_roadsigns_1090.jpg,No_straight_through,0.84,651,398,810,556
+usa_roadsigns_1090.jpg,Steep_grade,0.81,228,162,393,321

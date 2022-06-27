@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1031.jpg,Bike_lane_slippery_when_wet,0.88,14,34,211,233
-usa_roadsigns_1031.jpg,Side_road_at_an_acute_angle,0.75,651,400,808,559
-usa_roadsigns_1031.jpg,Cross_roads,0.73,226,157,392,321
-usa_roadsigns_1031.jpg,Path_narrows,0.56,441,276,602,439
-usa_roadsigns_1031.jpg,Path_narrows,0.56,858,517,1017,679
+usa_roadsigns_1031.jpg,School_bus_stop_ahead,0.97,17,37,210,234
+usa_roadsigns_1031.jpg,Side_road_at_an_acute_angle,0.93,651,399,809,557
+usa_roadsigns_1031.jpg,Bicycles,0.9,861,516,1018,678
+usa_roadsigns_1031.jpg,Bicycles,0.89,440,276,600,439
+usa_roadsigns_1031.jpg,Cross_roads,0.84,230,159,390,320

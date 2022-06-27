@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1035.jpg,Truck_crossing,0.84,438,280,637,476
-usa_roadsigns_1035.jpg,No_parking,0.8,228,161,391,321
-usa_roadsigns_1035.jpg,No_straight_through,0.77,857,521,1017,679
-usa_roadsigns_1035.jpg,Circular_intersection_warning,0.66,15,38,184,202
-usa_roadsigns_1035.jpg,No_straight_through,0.59,650,399,814,560
+usa_roadsigns_1035.jpg,No_straight_through,0.93,860,520,1018,679
+usa_roadsigns_1035.jpg,Circular_intersection_warning,0.92,18,39,183,203
+usa_roadsigns_1035.jpg,Truck_crossing,0.88,436,276,635,475
+usa_roadsigns_1035.jpg,No_pedestrian_crossing,0.8,650,398,813,561
+usa_roadsigns_1035.jpg,No_parking,0.77,228,158,394,322

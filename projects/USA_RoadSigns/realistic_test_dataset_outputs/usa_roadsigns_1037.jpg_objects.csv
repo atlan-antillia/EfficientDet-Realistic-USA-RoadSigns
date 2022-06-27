@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1037.jpg,Speed_limit_50,0.93,649,400,819,603
-usa_roadsigns_1037.jpg,Road_closed,0.91,228,158,422,280
-usa_roadsigns_1037.jpg,Sharp_turn,0.74,856,517,1021,685
-usa_roadsigns_1037.jpg,No_left_turn,0.69,440,281,635,471
-usa_roadsigns_1037.jpg,Added_lane,0.41,15,40,182,201
+usa_roadsigns_1037.jpg,Speed_limit_50,0.96,651,398,817,604
+usa_roadsigns_1037.jpg,Sharp_turn,0.91,860,520,1022,681
+usa_roadsigns_1037.jpg,No_u_turn,0.91,440,279,633,471
+usa_roadsigns_1037.jpg,Road_closed,0.86,228,158,420,278
+usa_roadsigns_1037.jpg,Hazardous_material_route,0.81,15,38,181,200

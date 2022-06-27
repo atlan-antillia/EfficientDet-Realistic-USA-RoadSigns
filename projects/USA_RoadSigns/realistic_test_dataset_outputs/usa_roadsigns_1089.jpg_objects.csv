@@ -1,5 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1089.jpg,Reserved_parking_wheelchair,0.93,440,277,570,470
-usa_roadsigns_1089.jpg,No_straight_through,0.79,15,38,178,201
-usa_roadsigns_1089.jpg,Keep_left,0.74,860,520,1015,713
-usa_roadsigns_1089.jpg,Added_lane,0.72,647,396,843,592
+usa_roadsigns_1089.jpg,Added_lane,0.97,649,395,842,591
+usa_roadsigns_1089.jpg,Dip,0.95,227,158,420,353
+usa_roadsigns_1089.jpg,Reserved_parking_wheelchair,0.94,441,279,570,471
+usa_roadsigns_1089.jpg,No_straight_through,0.93,20,39,178,198
+usa_roadsigns_1089.jpg,Keep_left,0.61,860,518,1014,713

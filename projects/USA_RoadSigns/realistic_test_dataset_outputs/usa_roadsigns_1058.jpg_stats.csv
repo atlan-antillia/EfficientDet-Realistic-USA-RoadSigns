@@ -1,4 +1,5 @@
 id, class, count
-1,Night_speed_limit_70km,1
-2,Merging_traffic,3
-3,Pedestrian_crossing,1
+1,Y_roads,1
+2,Merging_traffic,2
+3,Night_speed_limit_70km,1
+4,Road_narrows,1

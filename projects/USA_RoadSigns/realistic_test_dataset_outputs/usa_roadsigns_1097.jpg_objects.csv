@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1097.jpg,Curve,0.65,17,38,184,201
-usa_roadsigns_1097.jpg,Winding_road,0.6,858,519,1022,683
-usa_roadsigns_1097.jpg,No_parking,0.59,651,401,813,560
-usa_roadsigns_1097.jpg,Merge,0.54,435,278,601,441
-usa_roadsigns_1097.jpg,Merging_traffic,0.4,226,160,393,320
+usa_roadsigns_1097.jpg,Deer_crossing,0.9,226,159,394,320
+usa_roadsigns_1097.jpg,Pedestrian_crossing,0.84,17,39,183,202
+usa_roadsigns_1097.jpg,No_pedestrian_crossing,0.82,649,397,813,561
+usa_roadsigns_1097.jpg,Winding_road,0.75,858,518,1020,680
+usa_roadsigns_1097.jpg,Merge,0.68,439,279,598,439

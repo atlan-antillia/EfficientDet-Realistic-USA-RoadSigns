@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1087.jpg,Road_closed_ahead,0.75,14,39,216,235
-usa_roadsigns_1087.jpg,Right_turn_or_straight,0.69,229,160,393,356
-usa_roadsigns_1087.jpg,Merge,0.64,437,278,600,439
-usa_roadsigns_1087.jpg,Truck_rollover_warning,0.64,855,516,1021,684
-usa_roadsigns_1087.jpg,Tractor_farm_vehicle_crossing,0.59,648,397,812,562
+usa_roadsigns_1087.jpg,Road_closed_ahead,0.96,17,39,212,236
+usa_roadsigns_1087.jpg,Tractor_farm_vehicle_crossing,0.89,647,397,813,563
+usa_roadsigns_1087.jpg,Truck_rollover_warning,0.86,858,519,1021,683
+usa_roadsigns_1087.jpg,Merge,0.81,439,280,600,440
+usa_roadsigns_1087.jpg,Right_turn_or_straight,0.8,231,160,395,357

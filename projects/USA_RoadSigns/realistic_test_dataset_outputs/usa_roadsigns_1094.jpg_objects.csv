@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1094.jpg,Deer_crossing,0.8,19,38,182,201
-usa_roadsigns_1094.jpg,Deer_crossing,0.68,230,158,425,354
-usa_roadsigns_1094.jpg,Truck_crossing_2,0.65,859,518,1055,718
-usa_roadsigns_1094.jpg,Merge,0.62,437,280,633,475
-usa_roadsigns_1094.jpg,Winding_road,0.56,650,399,844,596
+usa_roadsigns_1094.jpg,Metric_low_clearance,0.95,860,516,1054,716
+usa_roadsigns_1094.jpg,Deer_crossing,0.94,229,157,425,353
+usa_roadsigns_1094.jpg,Deer_crossing,0.93,18,38,181,201
+usa_roadsigns_1094.jpg,Deer_crossing,0.93,439,277,636,473
+usa_roadsigns_1094.jpg,Winding_road,0.86,652,398,843,594

@@ -1,6 +1,6 @@
 ImageID, Label, Confidence, XMin, YMin, XMax, YMax
-usa_roadsigns_1073.jpg,Steep_grade_percentage,0.98,858,518,1052,714
-usa_roadsigns_1073.jpg,Reserved_parking_wheelchair,0.94,440,278,568,470
-usa_roadsigns_1073.jpg,Pass_on_either_side,0.88,650,398,843,595
-usa_roadsigns_1073.jpg,No_straight_through,0.75,15,38,211,233
-usa_roadsigns_1073.jpg,Hairpin_curve,0.51,226,157,423,358
+usa_roadsigns_1073.jpg,Reserved_parking_wheelchair,0.96,441,278,569,472
+usa_roadsigns_1073.jpg,Steep_grade_percentage,0.96,861,517,1052,715
+usa_roadsigns_1073.jpg,Pedestrian_crossing,0.96,227,156,424,358
+usa_roadsigns_1073.jpg,No_right_turn,0.94,17,37,212,232
+usa_roadsigns_1073.jpg,Pass_on_either_side,0.94,650,398,842,591
